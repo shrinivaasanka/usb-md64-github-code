@@ -484,3 +484,13 @@ Previous profiling prints following top kernel function invocations:
  (u'kthread+0x178/0x1d0', 74),
 implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion on https://groups.google.com/forum/#!topic/linux.kernel/IYBXrW7K2Vc shows it to be an old kernel bug.
 
+------------------------------------------------------------------------------------------------------------------------
+(FEATURE-DONE) Commits - 24 September 2017 -  USB-md driver for USB and Wireless LAN analytics for 4.13.3 64-bit kernel
+------------------------------------------------------------------------------------------------------------------------
+(*) USB-md driver in GitHub and SourceForge at present are 32-bit based on mainline 4.1.5 kernel
+(*) Both USB-md and KingCobra kernel modules are subsidiaries of VIRGO kernel
+(*) There is a necessity for 64-bit version of USB-md for interoperability to VIRGO64 64-bit kernel on mainline version 4.13.3
+(*) This requires separate repository for USB-md because of significant kernel function changes between 4.1.5 and 4.13.3 and
+ idiosyncrasies of 64-bit
+(*) USB-md driver has been rebuilt on 4.13.3 64-bit kernel after some changes to function prototypes and new usb-md64 repository is
+ initialized with these commits

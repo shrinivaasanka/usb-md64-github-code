@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+    <link rel="stylesheet" title="Style" type="text/css" href=
+    "../style.css">
+    <meta http-equiv="Content-Type" content=
+    "text/html; charset=us-ascii">
+    <title>
+      Adding new vendor and product IDs to an existing USB driver on Linux
+    </title>
+  </head>
+  <body>
+    <table cellspacing="0" cellpadding="7" width="100%" border="0">
+
+      <col width="80%">
+      <col width="20%">
+      <tbody>
+        <tr>
+          <td>
+            <h1>
+	    Adding new vendor and product IDs to an existing USB
+	    driver on Linux
+            </h1>
+            <h2>
+
+              Jon K&aring;re Hellan - <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;&#104;&#101;&#108;&#108;&#097;&#110;&#064;&#097;&#099;&#109;&#046;&#111;&#114;&#103;">(email)</a>
+            </h2>
+          </td>
+        </tr>
+        <tr valign="top">
+          <td>
+            <p>
+	      Frequently, when a USB device doesn't work out of the
+	      box with Linux, it turns out that there already is a
+	      driver which can handle the device. All that must be
+  	      done is to make the driver recognize the device.
+	      Unfortunately, it is widely believed that you have to build your own
+	      kernel to fix this.
+            </p>
+            <p>
+	    But from kernel version 2.6.21 (2007), all
+	    USB drivers can be told to recognize an additional device
+	    without rebuilding. Support for USB serial drivers came
+	    last, other USB drivers got  this capability with
+	      2.6.16 (2006).
+            </p>
+            <blockquote class="note">
+	      To tell which kernel version you are running, give this
+	      command in a terminal window:
+	    <pre>uname -r</pre>
+	      My Ubuntu 10.10 (Maverick Meerkat) answers '2.6.35-22-generic, which is a
+	      variant of the 2.6.35 kernel version.
+	    </blockquote>
+	    <p>
+	      Imagine that you've just unpacked your brand new
+	      Yoyodyne USB frobitzer. You've plugged it into your
+	      computer, but it didn't work. You have googled, and
+	      found that 'foo_driver' is reported to handle an earlier
+	      model of the same device.</p>
+	    <p>
+	      Give this command in a terminal window:
+	    <pre>lsusb</pre>
+	    You'll see a number of lines looking more or less like this:
+	    <pre>Bus 003 Device 002: ID 34ca:d365 Yoyodyne Electronics Frobitzer</pre>
+	    It's easy to tell which line belongs to your device: It
+	    disappears when you unplug it. You need the text strings '34ca'
+	    and 'd365'. '34ca' is called the vendor ID, and 'd365' the
+	    product ID. The kernel uses these when
+	    choosing a driver.
+	    <p>If you see 'command not found' when you give the
+	    'lsusb' command, you have to install the 'usbutils' package.</p>
+	    
+	    Here's what you do:
+	      <ul>
+		<li>Unplug the device. I think this only is necessary
+		if another driver has recognized the device, but is
+		handling it poorly. But it can't hurt in any case.
+		<li>Become root in a terminal window.
+		<li>Give the commands:
+		
+		<pre>modprobe foo_driver
+echo 34ca d365 > /sys/bus/usb/drivers/foo_driver/new_id</pre>
+
+		USB serial drivers are typically used with devices
+		like cell phone cables, cellular modems, bluetooth
+		adapters, etc. If this is a USB serial device, the command sequence becomes
+
+		<pre>modprobe foo_driver
+echo 34ca d365 > /sys/bus/usb-serial/drivers/foo_driver/new_id</pre>
+		
+		<li>Plug in the device.
+	      </ul>
+	    <p>
+	      Replace 'foo_driver' and the IDs with your actual driver,
+	      vendor ID and product ID.
+	    </p>
+            <p>
+              'new_id' does not work with 'usbserial', the
+	      generic driver. But this is not really a problem. Although
+	      there is lot of advice on the net that you
+	      should use the generic driver, it is actually only for
+	      testing. Although your device may work after a fashion
+	      with the generic driver, there is almost always a better
+	      solution.
+            </p>
+	    <p>
+	      What if you have to add two different IDs to the same
+	      driver? Then you do it with two echo statements, like
+	      this:
+	      <pre>echo 34ca d365 > /sys/bus/usb/drivers/foo_driver/new_id
+echo 1cc2 5299 > /sys/bus/usb/drivers/foo_driver/new_id</pre>			      
+	      Adding IDs only works if the kernel has been built with
+	      CONFIG_HOTPLUG enabled. Almost all current distributions
+	      turn this feature on.
+
+	      <h2>Hotplugging with udev</h2>
+	      <!-- Based on -->
+	      <!-- http://andy.hillhome.org/blog/2007/02/05/using-a-umts-card-on-opensuse-102/ -->
+	      <p>
+	      You can create a <em>udev</em> rule to make the device
+	      "just work" when it is plugged in. The following hasn't
+	      been tested, but should be close:
+	      </p>
+	      <p>
+	      Create /etc/udev/rules.d/95-foo.rules containing the
+	      following:
+	      
+	      <pre># Rules for hotplugging Yoyodyne USB frobitzers
+SUBSYSTEM=="usb", SYSFS{idVendor}=="34ca", SYSFS{idProduct}=="d365", RUN="/etc/yoyodyne_foo.sh"
+# You may need lines like these to create devices with correct groups
+# and permissions, and set up symlinks:
+# KERNEL=="ttyUSB0", SYMLINK="modem", GROUP="dialout", MODE="0660"
+# KERNEL=="ttyUSB1", GROUP="dialout" MODE="0660"</pre>
+	      
+	      and /etc/yoyodyne_foo.sh as follows:
+	      <pre>#!/bin/sh
+modprobe foo_driver
+echo 34ca d365 > /sys/bus/usb/drivers/foo_driver/new_id</pre>
+
+	      Change these files to suit your situation. And please
+	      report bugs.
+	      
+	      <h2>Thanks</h2>
+	      <p>to Andy Hill for <a
+	      href="http://andy.hillhome.org/blog/2007/02/05/using-a-umts-card-on-opensuse-102/">this page
+	      </a> with info about udev.</p>
+	      <p>to Oliver Neukum, Dominic Curran and Russ Nelson for helpful comments.</p>
+	      <div class="footer">
+              <p class="timestamp">
+                <!-- hhmts start -->Last modified: May 15 2012 <!-- hhmts end -->
+              </p>
+            </div>
+          </td>
+          <td>
+
+<!--             <div class="nav"> -->
+<!--               <a href="../anydata">AnyDATA CDMA modems on Linux</a> -->
+<!--               <a href="../emacs">Emacs</a> -->
+<!-- 	      <a href="../gnumeric">Gnumeric</a> -->
+<!-- 	      <a href="../la4rt">LA4RT</a> -->
+<!--             </div> -->
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+  </body>
+</html>

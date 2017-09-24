@@ -1,0 +1,4 @@
+0x5773170b	virgokernel_analytics_exit	/media/shrinivaasanka/0fc4d8a2-1c74-4268-8099-9ef78d8c8ea22/home/kashrinivaasan/linux-4.1.5/drivers/virgo/kernel_analytics/virgo_kernel_analytics	EXPORT_SYMBOL
+0x939829f2	virgokernel_analytics_init	/media/shrinivaasanka/0fc4d8a2-1c74-4268-8099-9ef78d8c8ea22/home/kashrinivaasan/linux-4.1.5/drivers/virgo/kernel_analytics/virgo_kernel_analytics	EXPORT_SYMBOL
+0x9a410671	read_virgo_kernel_analytics_config	/media/shrinivaasanka/0fc4d8a2-1c74-4268-8099-9ef78d8c8ea22/home/kashrinivaasan/linux-4.1.5/drivers/virgo/kernel_analytics/virgo_kernel_analytics	EXPORT_SYMBOL
+0x69e59c53	virgo_kernel_analytics_conf	/media/shrinivaasanka/0fc4d8a2-1c74-4268-8099-9ef78d8c8ea22/home/kashrinivaasan/linux-4.1.5/drivers/virgo/kernel_analytics/virgo_kernel_analytics	EXPORT_SYMBOL

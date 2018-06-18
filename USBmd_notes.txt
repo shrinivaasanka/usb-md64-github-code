@@ -494,3 +494,12 @@ implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion
  idiosyncrasies of 64-bit
 (*) USB-md driver has been rebuilt on 4.13.3 64-bit kernel after some changes to function prototypes and new usb-md64 repository is
  initialized with these commits
+
+--------------------------------------------------------------------------------------------------------------
+(FEATURE-DONE) USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python function - 18 June 2018
+--------------------------------------------------------------------------------------------------------------
+1. Spark Log Analyzer Spark_USBWWANLogMapReduceParser.py has been changed to modularize the pattern extraction
+by defining a new function accepting kern.log file, pattern and filter and also creates Spark DataFrame SQL
+table and queries it.
+2. This is similar to NeuronRain AsFer log_mapreducer()
+

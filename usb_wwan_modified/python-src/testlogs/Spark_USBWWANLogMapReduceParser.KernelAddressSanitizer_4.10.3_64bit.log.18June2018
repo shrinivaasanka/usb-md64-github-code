@@ -1,0 +1,271 @@
+2018-06-18 13:36:00 WARN  Utils:66 - Your hostname, HCL resolves to a loopback address: 127.0.1.1, but we couldn't find any external IP address!
+2018-06-18 13:36:00 WARN  Utils:66 - Set SPARK_LOCAL_IP if you need to bind to another address
+2018-06-18 13:36:01 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-06-18 13:36:02 INFO  SparkContext:54 - Running Spark version 2.3.0
+2018-06-18 13:36:02 INFO  SparkContext:54 - Submitted application: Spark_USBWWANLogMapReduceParser.py
+2018-06-18 13:36:02 INFO  SecurityManager:54 - Changing view acls to: root
+2018-06-18 13:36:02 INFO  SecurityManager:54 - Changing modify acls to: root
+2018-06-18 13:36:02 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-06-18 13:36:02 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-06-18 13:36:02 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2018-06-18 13:36:03 WARN  MacAddressUtil:136 - Failed to find a usable hardware address from the network interfaces; using random bytes: a4:9a:41:4e:c2:19:e7:f5
+2018-06-18 13:36:03 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 47888.
+2018-06-18 13:36:03 INFO  SparkEnv:54 - Registering MapOutputTracker
+2018-06-18 13:36:03 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2018-06-18 13:36:03 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2018-06-18 13:36:03 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2018-06-18 13:36:03 INFO  DiskBlockManager:54 - Created local directory at /tmp/blockmgr-733d8f80-71ca-40b1-9fcb-a44e772504c5
+2018-06-18 13:36:03 INFO  MemoryStore:54 - MemoryStore started with capacity 413.9 MB
+2018-06-18 13:36:03 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2018-06-18 13:36:03 INFO  log:192 - Logging initialized @5586ms
+2018-06-18 13:36:04 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-06-18 13:36:04 INFO  Server:414 - Started @5790ms
+2018-06-18 13:36:04 INFO  AbstractConnector:278 - Started ServerConnector@4c00d8{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-06-18 13:36:04 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3cde21{/jobs,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@698f9d{/jobs/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f71a83{/jobs/job,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10c6b15{/jobs/job/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1c1098e{/stages,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f22377{/stages/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@12e81e9{/stages/stage,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@778a3a{/stages/stage/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1a17f54{/stages/pool,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@ba026c{/stages/pool/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11fab6b{/storage,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@16fc028{/storage/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@122594e{/storage/rdd,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f58d64{/storage/rdd/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f52a02{/environment,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@adcd4{/environment/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10917f2{/executors,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@bc331a{/executors/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73be75{/executors/threadDump,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@9b31d3{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1dc1f35{/static,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@80e972{/,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@f2fc95{/api,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c7eef3{/jobs/job/kill,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@169c616{/stages/stage/kill,null,AVAILABLE,@Spark}
+2018-06-18 13:36:04 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://HCL:4040
+2018-06-18 13:36:05 INFO  SparkContext:54 - Added file file:/media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py at file:/media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py with timestamp 1529309164999
+2018-06-18 13:36:05 INFO  Utils:54 - Copying /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py to /tmp/spark-984d89ed-8049-47ac-865e-8fa076e0129e/userFiles-d59e3f2e-3b39-4408-81dc-45f09ac602b8/Spark_USBWWANLogMapReduceParser.py
+2018-06-18 13:36:05 INFO  Executor:54 - Starting executor ID driver on host localhost
+2018-06-18 13:36:05 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 34333.
+2018-06-18 13:36:05 INFO  NettyBlockTransferService:54 - Server created on HCL:34333
+2018-06-18 13:36:05 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-06-18 13:36:05 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, HCL, 34333, None)
+2018-06-18 13:36:05 INFO  BlockManagerMasterEndpoint:54 - Registering block manager HCL:34333 with 413.9 MB RAM, BlockManagerId(driver, HCL, 34333, None)
+2018-06-18 13:36:05 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, HCL, 34333, None)
+2018-06-18 13:36:05 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, HCL, 34333, None)
+2018-06-18 13:36:05 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@8e4fea{/metrics/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:06 WARN  SizeEstimator:66 - Failed to check whether UseCompressedOops is set; assuming yes
+2018-06-18 13:36:07 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 212.2 KB, free 413.7 MB)
+2018-06-18 13:36:07 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 22.9 KB, free 413.7 MB)
+2018-06-18 13:36:07 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on HCL:34333 (size: 22.9 KB, free: 413.9 MB)
+2018-06-18 13:36:07 INFO  SparkContext:54 - Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+2018-06-18 13:36:07 INFO  FileInputFormat:249 - Total input paths to process : 1
+2018-06-18 13:36:08 INFO  SparkContext:54 - Starting job: collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Registering RDD 3 (reduceByKey at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:57)
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Got job 0 (collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58) with 1 output partitions
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Final stage: ResultStage 1 (collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58)
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 0)
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 0)
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:57), which has no missing parents
+2018-06-18 13:36:08 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 10.6 KB, free 413.7 MB)
+2018-06-18 13:36:08 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.3 KB, free 413.7 MB)
+2018-06-18 13:36:08 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on HCL:34333 (size: 6.3 KB, free: 413.9 MB)
+2018-06-18 13:36:08 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1039
+2018-06-18 13:36:08 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ShuffleMapStage 0 (PairwiseRDD[3] at reduceByKey at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:57) (first 15 tasks are for partitions Vector(0))
+2018-06-18 13:36:08 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 1 tasks
+2018-06-18 13:36:08 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 8017 bytes)
+2018-06-18 13:36:08 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2018-06-18 13:36:08 INFO  Executor:54 - Fetching file:/media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py with timestamp 1529309164999
+2018-06-18 13:36:08 INFO  Utils:54 - /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py has been previously copied to /tmp/spark-984d89ed-8049-47ac-865e-8fa076e0129e/userFiles-d59e3f2e-3b39-4408-81dc-45f09ac602b8/Spark_USBWWANLogMapReduceParser.py
+2018-06-18 13:36:08 INFO  HadoopRDD:54 - Input split: file:/media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/testlogs/kern.log.KernelAddressSanitizer_4.10.3_64bit_kernel.15August2017:0+575620
+2018-06-18 13:36:10 INFO  PythonRunner:54 - Times: total = 893, boot = 611, init = 54, finish = 228
+2018-06-18 13:36:10 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1601 bytes result sent to driver
+2018-06-18 13:36:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 1895 ms on localhost (executor driver) (1/1)
+2018-06-18 13:36:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - ShuffleMapStage 0 (reduceByKey at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:57) finished in 2.139 s
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - looking for newly runnable stages
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - running: Set()
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - waiting: Set(ResultStage 1)
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - failed: Set()
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - Submitting ResultStage 1 (PythonRDD[6] at collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58), which has no missing parents
+2018-06-18 13:36:10 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 6.3 KB, free 413.7 MB)
+2018-06-18 13:36:10 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 3.9 KB, free 413.7 MB)
+2018-06-18 13:36:10 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on HCL:34333 (size: 3.9 KB, free: 413.9 MB)
+2018-06-18 13:36:10 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1039
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 1 (PythonRDD[6] at collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58) (first 15 tasks are for partitions Vector(0))
+2018-06-18 13:36:10 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 1 tasks
+2018-06-18 13:36:10 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 1, localhost, executor driver, partition 0, ANY, 7649 bytes)
+2018-06-18 13:36:10 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 1)
+2018-06-18 13:36:10 INFO  ShuffleBlockFetcherIterator:54 - Getting 1 non-empty blocks out of 1 blocks
+2018-06-18 13:36:10 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 10 ms
+2018-06-18 13:36:10 INFO  PythonRunner:54 - Times: total = 45, boot = -720, init = 764, finish = 1
+2018-06-18 13:36:10 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 1). 3770 bytes result sent to driver
+2018-06-18 13:36:10 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 1) in 164 ms on localhost (executor driver) (1/1)
+2018-06-18 13:36:10 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - ResultStage 1 (collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58) finished in 0.241 s
+2018-06-18 13:36:10 INFO  DAGScheduler:54 - Job 0 finished: collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:58, took 2.620722 s
+2018-06-18 13:36:10 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on HCL:34333 in memory (size: 3.9 KB, free: 413.9 MB)
+2018-06-18 13:36:11 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/spark-warehouse/').
+2018-06-18 13:36:11 INFO  SharedState:54 - Warehouse path is 'file:/media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/spark-warehouse/'.
+2018-06-18 13:36:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@17d904e{/SQL,null,AVAILABLE,@Spark}
+2018-06-18 13:36:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1eca352{/SQL/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1299287{/SQL/execution,null,AVAILABLE,@Spark}
+2018-06-18 13:36:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@d25d5b{/SQL/execution/json,null,AVAILABLE,@Spark}
+2018-06-18 13:36:11 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@15ff210{/static/sql,null,AVAILABLE,@Spark}
+2018-06-18 13:36:12 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 18
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 17
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 16
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 15
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2018-06-18 13:36:13 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on HCL:34333 in memory (size: 6.3 KB, free: 413.9 MB)
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 13
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 6
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 4
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 3
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 5
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 7
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 11
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 10
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 2
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 12
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 20
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 21
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 8
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 19
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 9
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 14
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2018-06-18 13:36:13 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2018-06-18 13:36:18 INFO  SparkContext:54 - Starting job: collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63
+2018-06-18 13:36:18 INFO  DAGScheduler:54 - Got job 1 (collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63) with 1 output partitions
+2018-06-18 13:36:18 INFO  DAGScheduler:54 - Final stage: ResultStage 2 (collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63)
+2018-06-18 13:36:18 INFO  DAGScheduler:54 - Parents of final stage: List()
+2018-06-18 13:36:18 INFO  DAGScheduler:54 - Missing parents: List()
+2018-06-18 13:36:18 INFO  DAGScheduler:54 - Submitting ResultStage 2 (MapPartitionsRDD[13] at collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63), which has no missing parents
+2018-06-18 13:36:18 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 8.0 KB, free 413.7 MB)
+2018-06-18 13:36:18 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 4.5 KB, free 413.7 MB)
+2018-06-18 13:36:18 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on HCL:34333 (size: 4.5 KB, free: 413.9 MB)
+2018-06-18 13:36:18 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1039
+2018-06-18 13:36:18 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[13] at collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63) (first 15 tasks are for partitions Vector(0))
+2018-06-18 13:36:18 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 1 tasks
+2018-06-18 13:36:18 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 2, localhost, executor driver, partition 0, PROCESS_LOCAL, 9918 bytes)
+2018-06-18 13:36:18 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 2)
+2018-06-18 13:36:18 INFO  CodeGenerator:54 - Code generated in 576.923044 ms
+2018-06-18 13:36:19 INFO  PythonRunner:54 - Times: total = 42, boot = -7530, init = 7572, finish = 0
+2018-06-18 13:36:19 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 2). 3604 bytes result sent to driver
+2018-06-18 13:36:19 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 2) in 935 ms on localhost (executor driver) (1/1)
+2018-06-18 13:36:19 INFO  DAGScheduler:54 - ResultStage 2 (collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63) finished in 0.977 s
+2018-06-18 13:36:19 INFO  DAGScheduler:54 - Job 1 finished: collect at /media/Krishna_iResearch_/Krishna_iResearch_OpenSource/GitHub/usb-md-github-code/usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py:63, took 0.993693 s
+2018-06-18 13:36:19 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
+----------------------------------------------------------------------------------
+log_mapreducer(): pattern [ urb ] in [ ../testlogs/kern.log.KernelAddressSanitizer_4.10.3_64bit_kernel.15August2017 ] for filter [ +0x ]
+----------------------------------------------------------------------------------
+[(u'last_sector_hacks.isra.1.part.2+0xc9/0x1d0', 159), (u'save_stack+0x46/0xd0', 106), (u'save_stack_trace+0x1b/0x20', 106), (u'usb_stor_disconnect+0x120/0x120', 106), (u'entry_SYSENTER_compat+0x4c/0x5b', 85), (u'kthread+0x178/0x1d0', 74), (u'ret_from_fork+0x2c/0x40', 74), (u'kasan_kmalloc+0xad/0xe0', 53), (u'usb_stor_transparent_scsi_command+0xe/0x10', 53), (u'kmem_cache_alloc_trace+0xef/0x210', 53), (u'kthread_create_on_node+0xd0/0xd0', 53), (u'__asan_load8+0x5e/0x70', 53), (u'kasan_slab_free+0x71/0xb0', 53), (u'usb_stor_control_thread+0x344/0x510', 53), (u'wait_for_completion_killable+0x2a0/0x2a0', 53), (u'__fput+0x177/0x350', 53), (u'do_fast_syscall_32+0x2ef/0x300', 53), (u'exit_to_usermode_loop+0xc5/0xd0', 53), (u'kasan_report+0x25/0x30', 53), (u'__wake_up_common+0x78/0xc0', 53), (u'kasan_report.part.1+0x219/0x4f0', 53), (u'usb_stor_port_reset+0xb0/0xb0', 53), (u'kfree+0x9e/0x1e0', 53), (u'task_work_run+0xa0/0xc0', 53), (u'dump_stack+0x63/0x8b', 53), (u'kernfs_fop_release+0x87/0xa0', 53), (u'____fput+0xe/0x10', 53), (u'kasan_object_err+0x21/0x70', 53), (u'default_wake_function+0x2f/0x40', 53), (u'usb_stor_invoke_transport+0x1a1/0x960', 53), (u'migrate_swap_stop+0x2e0/0x2e0', 52), (u'wake_up_q+0x80/0x80', 48), (u'wait_for_completion_interruptible+0x1a7/0x260', 48), (u'raise_softirq_irqoff+0xba/0xd0', 47), (u'do_filp_open+0x122/0x1c0', 32), (u'do_sys_open+0x17c/0x2c0', 32), (u'vfs_open+0x84/0xd0', 32), (u'do_dentry_open+0x39a/0x560', 32), (u'compat_SyS_open+0x1b/0x20', 32), (u'kernfs_fop_open+0x14b/0x540', 32), (u'path_openat+0x4ab/0x1e10', 32), (u'do_fast_syscall_32+0x188/0x300', 32), (u'scsi_sysfs_add_sdev+0x244/0x350', 21), (u'worker_thread+0x90/0x850', 21), (u'do_scan_async+0xfd/0x230', 21), (u'device_private_init+0x38/0xc0', 21), (u'process_one_work+0x2c6/0x7d0', 21), (u'async_run_entry_fn+0x84/0x270', 21), (u'device_add+0x81d/0x9f0', 21), (u'__asan_storeN+0x12/0x20', 18), (u'cpus_share_cache+0x5f/0x70', 5), (u'wait_for_completion_interruptible+0x9b/0x260', 5), (u'_cond_resched+0x33/0x50', 5), (u'switch_mm_irqs_off+0xfc/0x3c0', 2), (u'raise_softirq_irqoff+0x47/0xd0', 1)]
+----------------------------------------------------------------------------------
+SparkSQL DataFrame query results:
+----------------------------------------------------------------------------------
+{u'____fput+0xe/0x10': 53,
+ u'__asan_load8+0x5e/0x70': 53,
+ u'__asan_storeN+0x12/0x20': 18,
+ u'__fput+0x177/0x350': 53,
+ u'__wake_up_common+0x78/0xc0': 53,
+ u'_cond_resched+0x33/0x50': 5,
+ u'async_run_entry_fn+0x84/0x270': 21,
+ u'compat_SyS_open+0x1b/0x20': 32,
+ u'cpus_share_cache+0x5f/0x70': 5,
+ u'default_wake_function+0x2f/0x40': 53,
+ u'device_add+0x81d/0x9f0': 21,
+ u'device_private_init+0x38/0xc0': 21,
+ u'do_dentry_open+0x39a/0x560': 32,
+ u'do_fast_syscall_32+0x188/0x300': 32,
+ u'do_fast_syscall_32+0x2ef/0x300': 53,
+ u'do_filp_open+0x122/0x1c0': 32,
+ u'do_scan_async+0xfd/0x230': 21,
+ u'do_sys_open+0x17c/0x2c0': 32,
+ u'dump_stack+0x63/0x8b': 53,
+ u'entry_SYSENTER_compat+0x4c/0x5b': 85,
+ u'exit_to_usermode_loop+0xc5/0xd0': 53,
+ u'kasan_kmalloc+0xad/0xe0': 53,
+ u'kasan_object_err+0x21/0x70': 53,
+ u'kasan_report+0x25/0x30': 53,
+ u'kasan_report.part.1+0x219/0x4f0': 53,
+ u'kasan_slab_free+0x71/0xb0': 53,
+ u'kernfs_fop_open+0x14b/0x540': 32,
+ u'kernfs_fop_release+0x87/0xa0': 53,
+ u'kfree+0x9e/0x1e0': 53,
+ u'kmem_cache_alloc_trace+0xef/0x210': 53,
+ u'kthread+0x178/0x1d0': 74,
+ u'kthread_create_on_node+0xd0/0xd0': 53,
+ u'last_sector_hacks.isra.1.part.2+0xc9/0x1d0': 159,
+ u'migrate_swap_stop+0x2e0/0x2e0': 52,
+ u'path_openat+0x4ab/0x1e10': 32,
+ u'process_one_work+0x2c6/0x7d0': 21,
+ u'raise_softirq_irqoff+0x47/0xd0': 1,
+ u'raise_softirq_irqoff+0xba/0xd0': 47,
+ u'ret_from_fork+0x2c/0x40': 74,
+ u'save_stack+0x46/0xd0': 106,
+ u'save_stack_trace+0x1b/0x20': 106,
+ u'scsi_sysfs_add_sdev+0x244/0x350': 21,
+ u'switch_mm_irqs_off+0xfc/0x3c0': 2,
+ u'task_work_run+0xa0/0xc0': 53,
+ u'usb_stor_control_thread+0x344/0x510': 53,
+ u'usb_stor_disconnect+0x120/0x120': 106,
+ u'usb_stor_invoke_transport+0x1a1/0x960': 53,
+ u'usb_stor_port_reset+0xb0/0xb0': 53,
+ u'usb_stor_transparent_scsi_command+0xe/0x10': 53,
+ u'vfs_open+0x84/0xd0': 32,
+ u'wait_for_completion_interruptible+0x1a7/0x260': 48,
+ u'wait_for_completion_interruptible+0x9b/0x260': 5,
+ u'wait_for_completion_killable+0x2a0/0x2a0': 53,
+ u'wake_up_q+0x80/0x80': 48,
+ u'worker_thread+0x90/0x850': 21}
+----------------------------------------------------------------------------------
+Cardinality of Stream Dataset:
+----------------------------------------------------------------------------------
+55
+2018-06-18 13:36:19 INFO  SparkContext:54 - Invoking stop() from shutdown hook
+2018-06-18 13:36:19 INFO  AbstractConnector:318 - Stopped Spark@4c00d8{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2018-06-18 13:36:19 INFO  SparkUI:54 - Stopped Spark web UI at http://HCL:4040
+2018-06-18 13:36:19 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2018-06-18 13:36:19 INFO  MemoryStore:54 - MemoryStore cleared
+2018-06-18 13:36:19 INFO  BlockManager:54 - BlockManager stopped
+2018-06-18 13:36:19 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2018-06-18 13:36:19 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2018-06-18 13:36:19 INFO  SparkContext:54 - Successfully stopped SparkContext
+2018-06-18 13:36:19 INFO  ShutdownHookManager:54 - Shutdown hook called
+2018-06-18 13:36:19 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-984d89ed-8049-47ac-865e-8fa076e0129e
+2018-06-18 13:36:19 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-92cdee26-c46b-4ef9-801f-7761459faa1e
+2018-06-18 13:36:19 INFO  ShutdownHookManager:54 - Deleting directory /tmp/spark-984d89ed-8049-47ac-865e-8fa076e0129e/pyspark-b9533352-98c6-475e-b749-a7a7cd8458b1

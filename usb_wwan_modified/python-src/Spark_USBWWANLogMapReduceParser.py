@@ -1,5 +1,5 @@
 #/******************************************************************************************************
-#* UMB - Universal Modified  Bus Driver - simple USB driver for debugging
+#* NEURONRAIN USB-md - Wireless Network and USB Stream Data Analytics
 #* This program is free software: you can redistribute it and/or modify
 #* it under the terms of the GNU General Public License as published by
 #* the Free Software Foundation, either version 3 of the License, or
@@ -14,16 +14,8 @@
 #* along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #*
 #--------------------------------------------------------------------------------------------------------
-#Copyleft (Copyright+):
-#Srinivasan Kannan (alias) Ka.Shrinivaasan (alias) Shrinivas Kannan
-#Ph: 9791499106, 9003082186
-#Krishna iResearch Open Source Products Profiles:
-#http://sourceforge.net/users/ka_shrinivaasan,
-#https://github.com/shrinivaasanka,
-#https://www.openhub.net/accounts/ka_shrinivaasan
+#NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
 #Personal website(research): https://sites.google.com/site/kuja27/
-#emails: ka.shrinivaasan@gmail.com, shrinivas.kannan@gmail.com,
-#kashrinivaasan@live.com
 #--------------------------------------------------------------------------------------------------------
 #********************************************************************************************************/
 
@@ -38,33 +30,44 @@ from pyspark.sql import SQLContext, Row
 import operator
 import pprint
 
-def mapFunction(word):
-     	return (word,1)
- 
+def mapFunction(patternline):
+     for i in patternline.split():
+          return (i,1)
+
 def reduceFunction(value1,value2):
-	return value1+value2
+     return value1+value2
 
+def log_mapreducer(logfilename, pattern, filt):
+        spcon=SparkContext()
+	if filt == "None":
+        	input=open(logfilename,'r')
+        	paralleldata=spcon.parallelize(input.readlines())
+        	patternlines=paralleldata.filter(lambda patternline: pattern in patternline)
+        	matches=patternlines.map(mapFunction).reduceByKey(reduceFunction)
+	else:
+        	input=spcon.textFile(logfilename)
+		matches=input.flatMap(lambda line:line.split()).filter(lambda line: filt in line).map(mapFunction).reduceByKey(reduceFunction)
+        matches_collected=matches.collect()
+	sqlContext=SQLContext(spcon)
+	bytes_stream_schema=sqlContext.createDataFrame(matches_collected)
+	bytes_stream_schema.registerTempTable("USBWWAN_bytes_stream")
+	query_results=sqlContext.sql("SELECT * FROM USBWWAN_bytes_stream")
+	dict_query_results=dict(query_results.collect())
+        print "----------------------------------------------------------------------------------"
+        print "log_mapreducer(): pattern [",pattern,"] in [",logfilename,"] for filter [",filt,"]"
+        print "----------------------------------------------------------------------------------"
+	dict_matches=dict(matches_collected)
+	sorted_dict_matches = sorted(dict_matches.items(),key=operator.itemgetter(1), reverse=True)
+        print sorted_dict_matches 
+        print "----------------------------------------------------------------------------------"
+	print "SparkSQL DataFrame query results:"
+        print "----------------------------------------------------------------------------------"
+	pprint.pprint(dict_query_results)
+        print "----------------------------------------------------------------------------------"
+	print "Cardinality of Stream Dataset:"
+        print "----------------------------------------------------------------------------------"
+	print len(dict_query_results)
+        return sorted_dict_matches 
 
-spcon=SparkContext() 
-filt="+0x"
-#input=open('../testlogs/kern.log.print_buffer_byte','r')
-input=spcon.textFile('../testlogs/kern.log.KernelAddressSanitizer_4.10.3_64bit_kernel.15August2017')
-#paralleldata=spcon.parallelize(input.readlines())
-#printbufwords=paralleldata.filter(lambda printbufline: printbufline.split())
-#print printbufwords
-k=input.flatMap(lambda line:line.split()).filter(lambda line: filt in line).map(mapFunction).reduceByKey(reduceFunction)
-dict_k=dict(k.collect())
-s = sorted(dict_k.items(),key=operator.itemgetter(1), reverse=True)
-print "Spark MapReduce results:"
-pprint.pprint(s)
-
-############################
-sqlContext=SQLContext(spcon)
-bytes_stream_schema=sqlContext.createDataFrame(k.collect())
-bytes_stream_schema.registerTempTable("USBWWAN_bytes_stream")
-query_results=sqlContext.sql("SELECT * FROM USBWWAN_bytes_stream")
-dict_query_results=dict(query_results.collect())
-print "SparkSQL DataFrame query results:"
-pprint.pprint(dict_query_results)
-print "Cardinality of Stream Dataset:"
-print len(dict_query_results)
+if __name__=="__main__":
+	log_mapreducer("../testlogs/kern.log.KernelAddressSanitizer_4.10.3_64bit_kernel.15August2017","urb","+0x")

@@ -37,37 +37,43 @@ def mapFunction(patternline):
 def reduceFunction(value1,value2):
      return value1+value2
 
-def log_mapreducer(logfilename, pattern, filt):
+def log_mapreducer(logfilename, pattern, filt="None"):
         spcon=SparkContext()
 	if filt == "None":
         	input=open(logfilename,'r')
         	paralleldata=spcon.parallelize(input.readlines())
         	patternlines=paralleldata.filter(lambda patternline: pattern in patternline)
+		print "pattern lines",patternlines.collect()
         	matches=patternlines.map(mapFunction).reduceByKey(reduceFunction)
 	else:
         	input=spcon.textFile(logfilename)
 		matches=input.flatMap(lambda line:line.split()).filter(lambda line: filt in line).map(mapFunction).reduceByKey(reduceFunction)
         matches_collected=matches.collect()
-	sqlContext=SQLContext(spcon)
-	bytes_stream_schema=sqlContext.createDataFrame(matches_collected)
-	bytes_stream_schema.registerTempTable("USBWWAN_bytes_stream")
-	query_results=sqlContext.sql("SELECT * FROM USBWWAN_bytes_stream")
-	dict_query_results=dict(query_results.collect())
-        print "----------------------------------------------------------------------------------"
-        print "log_mapreducer(): pattern [",pattern,"] in [",logfilename,"] for filter [",filt,"]"
-        print "----------------------------------------------------------------------------------"
-	dict_matches=dict(matches_collected)
-	sorted_dict_matches = sorted(dict_matches.items(),key=operator.itemgetter(1), reverse=True)
-        print sorted_dict_matches 
-        print "----------------------------------------------------------------------------------"
-	print "SparkSQL DataFrame query results:"
-        print "----------------------------------------------------------------------------------"
-	pprint.pprint(dict_query_results)
-        print "----------------------------------------------------------------------------------"
-	print "Cardinality of Stream Dataset:"
-        print "----------------------------------------------------------------------------------"
-	print len(dict_query_results)
-        return sorted_dict_matches 
+	print "matches_collected:",matches_collected
+	if len(matches_collected) > 0:
+		sqlContext=SQLContext(spcon)
+		bytes_stream_schema=sqlContext.createDataFrame(matches_collected)
+		bytes_stream_schema.registerTempTable("USBWWAN_bytes_stream")
+		query_results=sqlContext.sql("SELECT * FROM USBWWAN_bytes_stream")
+		dict_query_results=dict(query_results.collect())
+        	print "----------------------------------------------------------------------------------"
+        	print "log_mapreducer(): pattern [",pattern,"] in [",logfilename,"] for filter [",filt,"]"
+        	print "----------------------------------------------------------------------------------"
+		dict_matches=dict(matches_collected)
+		sorted_dict_matches = sorted(dict_matches.items(),key=operator.itemgetter(1), reverse=True)
+        	print "pattern matching lines:",sorted_dict_matches 
+        	print "----------------------------------------------------------------------------------"
+		print "SparkSQL DataFrame query results:"
+        	print "----------------------------------------------------------------------------------"
+		pprint.pprint(dict_query_results)
+        	print "----------------------------------------------------------------------------------"
+		print "Cardinality of Stream Dataset:"
+        	print "----------------------------------------------------------------------------------"
+		print len(dict_query_results)
+		spcon.stop()
+        	return sorted_dict_matches 
 
 if __name__=="__main__":
 	log_mapreducer("../testlogs/kern.log.KernelAddressSanitizer_4.10.3_64bit_kernel.15August2017","urb","+0x")
+	log_mapreducer("../testlogs/usbmon.15November2018.mon","Bi")
+	log_mapreducer("../testlogs/ftrace.ping.log.15November2018","usb")

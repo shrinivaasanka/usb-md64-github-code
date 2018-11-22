@@ -1,0 +1,4836 @@
+strict digraph  {
+" fuse_get_req ";
+kmap_high
+;
+" tick_program_event ";
+" prepare_creds ";
+" hrtimer_init ";
+" __kmap_atomic ";
+" find_vma ";
+tty_audit_fork
+;
+" truncate_inode_pages ";
+update_curr
+;
+__delayacct_tsk_init
+;
+" tlb_gather_mmu ";
+" enqueue_to_backlog ";
+" drop_file_write_access ";
+"__page_cache_release.part.8\n";
+" audit_alloc ";
+" __page_cache_release.part.8 ";
+" insert_work ";
+" security_task_create ";
+security_task_create
+;
+fuse_open_common
+;
+" iattr_to_fattr ";
+pit_next_event
+;
+" delete_from_page_cache ";
+__kmap_atomic
+;
+" __kmalloc_track_caller ";
+security_dentry_open
+;
+" mnt_want_write ";
+" mm_alloc ";
+" up_read ";
+__get_user_pages
+;
+" copy_to_user ";
+" rcu_process_callbacks ";
+security_bprm_committed_creds
+;
+" _copy_from_user ";
+" _cond_resched ";
+ptep_set_access_flags
+;
+" netif_rx.part.87 ";
+usb_hcd_unmap_urb_for_dma
+;
+free_bprm
+;
+" cap_inode_setattr ";
+" do_device_not_available ";
+" fuse_request_alloc ";
+" place_entity ";
+" acct_update_integrals ";
+" netif_rx ";
+pgd_free
+;
+vma_merge
+;
+" ext4_file_mmap ";
+__alloc_skb
+;
+" security_capable ";
+" __dec_zone_state ";
+" qh_urb_transaction ";
+dput
+;
+" set_task_cpu ";
+__fsnotify_parent
+;
+" file_read_actor ";
+notify_change
+;
+" sys_close ";
+" vfs_stat ";
+" vfs_fstat ";
+" inode_change_ok ";
+" yenta_interrupt ";
+" fsnotify ";
+" file_sb_list_add ";
+" enqueue_sleeper ";
+do_mmap_pgoff
+;
+sigprocmask
+;
+shift_arg_pages
+;
+" proc_fork_connector ";
+" mmput.part.21 ";
+" security_bprm_secureexec ";
+" sys_read ";
+" terminate_walk ";
+memcg_check_events
+;
+__alloc_pages_nodemask
+;
+acct_update_integrals
+;
+pte_alloc_one
+;
+pgd_alloc
+;
+" __copy_to_user_ll ";
+wake_up_process
+;
+" raise_softirq ";
+unmask_8259A_irq
+;
+" __kunmap_atomic ";
+sys_open
+;
+" skb_dequeue ";
+" memcg_check_events ";
+" copy_process ";
+unlazy_walk
+;
+" invalidate_inode_pages2 ";
+_cond_resched
+;
+" __update_cpu_load ";
+enqueue_entity
+;
+delayed_work_timer_fn
+;
+mmap_region
+;
+" find_vma_prev ";
+would_dump
+;
+" rcu_report_qs_rnp ";
+copy_process
+;
+" tty_audit_fork ";
+" prepend_path ";
+" pid_vnr ";
+" profile_tick ";
+" unmap_page_range ";
+" __slab_free ";
+" load_script ";
+" flush_tlb_page ";
+apparmor_file_mprotect
+;
+copy_strings_kernel
+;
+copy_creds
+;
+" path_put ";
+kmap_atomic_prot
+;
+" mem_cgroup_del_lru_list.part.41 ";
+" apparmor_path_truncate ";
+strnlen_user
+;
+" apparmor_file_alloc_security ";
+" schedule_tail ";
+" fuse_set_nowrite ";
+" arch_pick_mmap_layout ";
+" mntput_no_expire ";
+" __rmqueue ";
+randomize_range
+;
+" enable_8259A_irq ";
+fuse_do_getattr
+;
+security_file_fcntl
+;
+__do_softirq
+;
+" cap_task_wait ";
+" __run_hrtimer ";
+" page_add_file_rmap ";
+__inc_zone_page_state
+;
+free_pages_prepare
+;
+__put_anon_vma
+;
+" security_task_wait ";
+" ext4_file_open ";
+load_misc_binary
+;
+" security_inode_permission ";
+create_elf_tables
+;
+mmput
+;
+get_vfs_caps_from_disk
+;
+" sys_mmap_pgoff ";
+" native_flush_tlb_single ";
+down_write
+;
+aa_alloc_task_context
+;
+tlb_flush_mmu
+;
+" wake_up_process ";
+flush_tlb_mm
+;
+" security_bprm_set_creds ";
+" recalc_sigpending ";
+" common_file_perm ";
+do_execve
+;
+do_IRQ
+;
+" move_ptes.isra.17 ";
+" do_sys_open ";
+"ehci_qtd_alloc.isra.71\n";
+" enqueue_hrtimer ";
+init_fpu
+;
+security_capable
+;
+fuse_setattr
+;
+" defer_bh ";
+" user_disable_single_step ";
+" ext4_getattr ";
+fuse_change_entry_timeout
+;
+" cp_new_stat64 ";
+mem_cgroup_get_reclaim_stat_from_page
+;
+dup_mm
+;
+" sys_open ";
+" page_address ";
+" timer_action ";
+" fuse_send_open.isra.17 ";
+" pte_alloc_one ";
+timer_action
+;
+free_pcppages_bulk
+;
+" khugepaged_enter_vma_merge ";
+wake_up_worker
+;
+" update_curr ";
+" __fput ";
+" free_hot_cold_page ";
+" shift_arg_pages ";
+open_exec
+;
+ehci_urb_done
+;
+" __vma_link_file ";
+__percpu_counter_add
+;
+" account_user_time ";
+set_current_blocked
+;
+" acl_permission_check ";
+mem_cgroup_newpage_charge
+;
+" destroy_context ";
+" __rcu_process_callbacks ";
+tick_do_update_jiffies64
+;
+netif_rx
+;
+security_file_alloc
+;
+" cap_task_create ";
+" truncate_inode_pages_range ";
+" update_cfs_shares ";
+"move_ptes.isra.17\n";
+fuse_get_attr_version
+;
+" qtd_fill.isra.45 ";
+fuse_request_alloc
+;
+__lock_task_sighand
+;
+" set_close_on_exec ";
+arch_randomize_brk
+;
+security_bprm_set_creds
+;
+" do_general_protection ";
+split_vma
+;
+" enqueue_task_fair ";
+" enqueue_entity ";
+__d_lookup
+;
+" cap_file_fcntl ";
+" check_unsafe_exec ";
+" enqueue_task ";
+vfs_stat
+;
+" __tlb_remove_page ";
+set_close_on_exec
+;
+" __inc_zone_state ";
+wq_worker_waking_up
+;
+" do_wait ";
+free_pgtables
+;
+" mod_zone_page_state ";
+" __vma_link_rb ";
+__switch_to
+;
+" apparmor_file_mprotect ";
+" elf_map ";
+" mem_cgroup_pgfault ";
+" do_last ";
+fixup_exception
+;
+" arch_setup_additional_pages ";
+" expand_files ";
+" commit_creds ";
+" unmap_urb_for_dma ";
+dquot_file_open
+;
+generic_getxattr
+;
+" mprotect_fixup ";
+touch_atime
+;
+pagevec_lru_move_fn
+;
+" __init_waitqueue_head ";
+" dup_mm ";
+" handle_irq_event ";
+" dput ";
+" fuse_alloc_forget ";
+" do_wp_page ";
+__pagevec_release
+;
+__rcu_pending
+;
+" ext4_xattr_block_get ";
+file_read_actor
+;
+fuse_put_request
+;
+" mem_cgroup_uncharge_end ";
+" logarithmic_accumulation ";
+" __put_cred ";
+" arch_dup_task_struct ";
+"mix_pool_bytes.constprop.8\n";
+security_bprm_check
+;
+" __d_lookup_rcu ";
+strncpy_from_user
+;
+" __task_pid_nr_ns ";
+" tick_sched_timer ";
+profile_munmap
+;
+" fget_light ";
+" note_interrupt ";
+" unlink_anon_vmas ";
+queue_request
+;
+" apparmor_file_mmap ";
+" setup_arg_pages ";
+" task_active_pid_ns ";
+" getname ";
+free_hot_cold_page
+;
+__insert_vm_struct
+;
+update_process_times
+;
+load_elf_interp
+;
+rndis_rx_fixup
+;
+" rcu_enter_nohz ";
+scheduler_tick
+;
+" fuse_getattr ";
+" fget_raw ";
+apparmor_path_truncate
+;
+get_file_caps
+;
+" do_iret_error ";
+move_page_tables
+;
+" mem_cgroup_uncharge_cache_page ";
+" mntput ";
+" __vma_link_list ";
+" _raw_spin_lock_irq ";
+" release_pages ";
+" __copy_user_zeroing_intel ";
+__dec_zone_page_state
+;
+" get_random_bytes ";
+" free_thread_xstate ";
+apparmor_bprm_set_creds
+;
+" run_posix_cpu_timers ";
+" anon_vma_fork ";
+" scan_async ";
+" get_unmapped_area_prot ";
+" copy_fs_struct ";
+vma_adjust
+;
+" exit_itimers ";
+" do_munmap ";
+" fget ";
+unmap_vmas
+;
+get_arg_page
+;
+rcu_irq_enter
+;
+" __vma_adjust_trans_huge ";
+__do_fault
+;
+" __remove_shared_vm_struct.isra.30 ";
+mm_init
+;
+" evm_inode_post_setattr ";
+account_system_time
+;
+" scan_periodic ";
+" check_preempt_curr ";
+path_init
+;
+" usbnet_bh ";
+"rmqueue_bulk.constprop.68\n";
+" get_arg_page ";
+" yama_inode_follow_link ";
+truncate_inode_pages_range
+;
+" bprm_fill_uid ";
+" sysfs_refresh_inode ";
+" pick_next_entity ";
+" __put_anon_vma ";
+" vma_prio_tree_remove ";
+enqueue_task
+;
+" getnstimeofday ";
+" timekeeping_update ";
+" security_file_alloc ";
+" get_pageblock_flags_group ";
+" rx_complete ";
+" mask_and_ack_8259A ";
+" arch_flush_exec_range ";
+update_rt_offset
+;
+putname
+;
+handle_level_irq
+;
+" add_mm_counter_fast ";
+" strcmp ";
+truncate_inode_pages
+;
+ptregs_clone
+;
+get_name_to_buffer
+;
+" free_pages ";
+" ktime_get_real ";
+" get_cwq.isra.17 ";
+remove_vma
+;
+" exit_aio ";
+sched_autogroup_fork
+;
+" sync_mm_rss ";
+"mem_cgroup_add_lru_list.part.42\n";
+" alloc_pid ";
+" ext4_release_file ";
+rcu_report_qs_rsp
+;
+do_sys_open
+;
+tick_sched_timer
+;
+usb_hcd_submit_urb
+;
+" ____pagevec_lru_add ";
+" find_vma_prepare ";
+sys_fcntl64
+;
+" do_anonymous_page ";
+" put_pid ";
+" __blocking_notifier_call_chain ";
+ret_from_fork
+;
+get_unmapped_area_prot
+;
+__run_hrtimer
+;
+" do_lookup ";
+" setup_new_exec ";
+" sysfs_dentry_revalidate ";
+" apparmor_dentry_open ";
+" aa_dfa_match ";
+"fuse_do_setattr.isra.15\n";
+" set_binfmt ";
+" lookup_hash ";
+" split_vma ";
+sys_brk
+;
+" run_local_timers ";
+" __d_lookup ";
+" force_quiescent_state ";
+fuse_file_alloc
+;
+" usb_get_urb ";
+" schedule ";
+" lru_cache_add_lru ";
+" update_rt_offset ";
+" usb_hcd_link_urb_to_ep ";
+" fuse_request_send ";
+" prep_new_page ";
+run_timer_softirq
+;
+mntput_no_expire
+;
+" freezer_fork ";
+set_page_address
+;
+" check_addr ";
+" __schedule ";
+" kzfree ";
+fuse_open
+;
+" free_pcppages_bulk ";
+" dma_pool_alloc ";
+fuse_alloc_forget
+;
+security_file_mmap
+;
+handle_pte_fault
+;
+" randomize_range ";
+" init_new_context ";
+ktime_get_update_offsets
+;
+" usb_unanchor_urb ";
+mutex_lock
+;
+" kmem_cache_alloc ";
+" vfs_open ";
+lock_page
+;
+detach_vmas_to_be_unmapped
+;
+" ehci_qtd_alloc.isra.71 ";
+" ttwu_queue ";
+prepend
+;
+" page_evictable ";
+" cpuacct_update_stats ";
+" mmap_rnd ";
+apparmor_file_mmap
+;
+dup_task_struct
+;
+" sys_clone ";
+update_wall_time
+;
+get_mm_exe_file
+;
+" __inc_zone_page_state ";
+vfs_getattr
+;
+" __page_set_anon_rmap ";
+enqueue_task_fair
+;
+xfer_secondary_pool
+;
+flush_ptrace_hw_breakpoint
+;
+" __bprm_mm_init ";
+" eth_type_trans ";
+removed_exe_file_vma
+;
+" ehci_urb_enqueue ";
+d_lookup
+;
+start_thread
+;
+" audit_bprm ";
+sys_close
+;
+" padzero ";
+" __delayacct_tsk_init ";
+cp_new_stat64
+;
+"submit_async.isra.72\n";
+arch_get_unmapped_area_topdown
+;
+copy_fs
+;
+" monotonic_to_bootbased ";
+ext4_xattr_get
+;
+" account_process_tick ";
+" rcu_note_context_switch ";
+fd_install
+;
+" __virt_addr_valid ";
+" truncate_pagecache ";
+" lookup_page_cgroup ";
+copy_strings
+;
+down_read
+;
+" tsk_fork_get_node ";
+" run_timer_softirq ";
+nommu_map_page
+;
+" usb_hcd_submit_urb ";
+arch_get_unmapped_exec_area
+;
+follow_managed
+;
+rcu_irq_exit
+;
+" timer_interrupt ";
+" would_dump ";
+anon_vma_chain_free
+;
+" dup_mmap ";
+" generic_permission ";
+" __fsnotify_parent ";
+file_sb_list_add
+;
+" vma_prio_tree_add ";
+do_timer
+;
+" exec_mmap ";
+" sys_wait4 ";
+perf_event_init_task
+;
+clockevents_program_event
+;
+" rndis_rx_fixup.part.8 ";
+" follow_huge_addr ";
+fuse_update_attributes
+;
+" fixup_exception ";
+" do_execve ";
+" security_prepare_creds ";
+d_namespace_path
+;
+" account_kernel_stack ";
+"__remove_shared_vm_struct.isra.30\n";
+" account ";
+" aa_alloc_task_context ";
+" may_open ";
+arch_align_stack
+;
+" revert_creds ";
+" start_thread ";
+lookup_hash
+;
+" delayed_work_timer_fn ";
+" fuse_put_request ";
+" set_brk ";
+" task_waking_fair ";
+complete_walk
+;
+" do_set_thread_area ";
+" unmask_8259A_irq ";
+" kthread_data ";
+" call_rcu_sched ";
+generic_file_aio_read
+;
+ext4_file_open
+;
+" do_page_fault ";
+" timespec_to_jiffies ";
+fpu_finit
+;
+" usb_hcd_giveback_urb ";
+" free_pages_prepare ";
+" update_cfs_load ";
+" generic_getxattr ";
+fuse_get_req
+;
+do_truncate
+;
+"mem_cgroup_del_lru_list.part.41\n";
+apparmor_bprm_secureexec
+;
+" fuse_allow_task ";
+" proc_exec_connector ";
+" clear_buddies ";
+" rcu_check_callbacks ";
+" fuse_perm_getattr ";
+find_extend_vma
+;
+" tick_do_update_jiffies64 ";
+usbnet_bh
+;
+" generic_fillattr ";
+" sys_set_thread_area ";
+" cap_vm_enough_memory ";
+" change_protection ";
+" extract_entropy ";
+" change_pte_range ";
+ttwu_do_wakeup
+;
+file_sb_list_del
+;
+" security_path_truncate ";
+" usb_hcd_map_urb_for_dma ";
+do_last
+;
+ns_capable
+;
+" get_mm_counter ";
+" generic_segment_checks ";
+" mnt_make_longterm ";
+" d_lookup ";
+" cap_bprm_secureexec ";
+"ttwu_do_activate.constprop.175\n";
+" jiffies_to_timeval ";
+vfs_open
+;
+" total_mapping_size ";
+follow_page
+;
+"wait_consider_task.part.9\n";
+" security_file_mprotect ";
+security_path_truncate
+;
+pick_next_entity
+;
+" sched_exec ";
+" module_put ";
+security_file_mprotect
+;
+ext4_file_mmap
+;
+__mem_cgroup_uncharge_common
+;
+" common_mmap ";
+" do_fork ";
+" exit_mmap ";
+" free_cached_lists ";
+do_brk
+;
+generic_permission
+;
+" anon_vma_chain_free ";
+dget
+;
+mem_cgroup_update_page_stat
+;
+apparmor_file_permission
+;
+" ttwu_do_activate.constprop.175 ";
+" follow_page ";
+mem_cgroup_charge_common
+;
+security_bprm_committing_creds
+;
+do_page_fault
+;
+qh_urb_transaction
+;
+" vm_get_page_prot ";
+" install_special_mapping ";
+" wake_up_worker ";
+" timekeeping_adjust ";
+security_inode_follow_link
+;
+" msecs_to_jiffies ";
+" reuse_swap_page ";
+" unlink_file_vma ";
+" zap_pte_range ";
+"check_lazy_exec_limit.isra.12\n";
+fuse_request_send
+;
+" apparmor_inode_getattr ";
+" __copy_user_intel ";
+" ext4_xattr_get ";
+" vma_merge ";
+path_openat
+;
+prepare_exec_creds
+;
+" hrtick_start_fair ";
+" fuse_do_open ";
+" cgroup_post_fork ";
+" qtd_copy_status.isra.43 ";
+security_file_free
+;
+" __kmalloc ";
+" flush_tlb_mm ";
+do_lookup
+;
+" __split_vma ";
+mprotect_fixup
+;
+irq_enter
+;
+" rcu_irq_enter ";
+defer_bh
+;
+" apparmor_bprm_set_creds ";
+" do_path_lookup ";
+" create_elf_tables ";
+" wait_task_continued ";
+" mem_cgroup_add_lru_list.part.42 ";
+" wake_up_new_task ";
+" do_timer ";
+" fuse_dentry_revalidate ";
+lru_add_drain
+;
+" fuse_flush ";
+" arch_remove_exec_range ";
+rw_verify_area
+;
+" handle_mm_fault ";
+path_lookupat
+;
+kmem_cache_free
+;
+" invalidate_inode_pages2_range ";
+" dec_zone_page_state ";
+" _raw_write_lock_irq ";
+handle_irq
+;
+" get_task_pid ";
+" hrtick_update ";
+" copy_pte_range ";
+" fuse_request_free ";
+" get_rps_cpu ";
+" files_lglock_local_lock_cpu ";
+"do_generic_file_read.constprop.31\n";
+anon_vma_prepare
+;
+" __free_pages ";
+" prepare_bprm_creds ";
+" kernel_read ";
+" drain_cpu_pagevecs ";
+schedule
+;
+" pick_next_task_fair ";
+" usb_hcd_unmap_urb_setup_for_dma ";
+apparmor_capable
+;
+" kmem_cache_alloc_trace ";
+" arch_unmap_area_topdown ";
+" acct_clear_integrals ";
+search_binary_handler
+;
+__pagevec_free
+;
+" do_softirq ";
+" files_lglock_local_unlock ";
+install_exec_creds
+;
+ehci_work
+;
+" fput ";
+apparmor_file_alloc_security
+;
+" qh_append_tds ";
+irq_exit
+;
+usb_hcd_map_urb_for_dma
+;
+" __srcu_read_lock ";
+" kmem_cache_free ";
+getname_flags
+;
+" security_file_fcntl ";
+" cap_file_mmap ";
+strlcpy
+;
+dequeue_entity
+;
+filemap_fault
+;
+" security_inode_follow_link ";
+security_bprm_secureexec
+;
+" pit_next_event ";
+" mntget ";
+page_add_file_rmap
+;
+cap_bprm_set_creds
+;
+" wait_consider_task ";
+add_wait_queue
+;
+" __pte_alloc ";
+" clear_user ";
+sys_execve
+;
+" __do_softirq ";
+" fuse_request_init ";
+" usbnet_skb_return ";
+alloc_fd
+;
+"xfer_secondary_pool.part.5\n";
+account_process_tick
+;
+" inode_permission ";
+" rcu_exit_nohz ";
+" inc_zone_page_state ";
+" __mix_pool_bytes ";
+unlink_file_vma
+;
+" flush_ptrace_hw_breakpoint ";
+" cap_bprm_check_security ";
+sys_munmap
+;
+current_fs_time
+;
+" pagevec_lru_move_fn ";
+__wake_up_common
+;
+" security_file_permission ";
+account
+;
+" __alloc_pages_nodemask ";
+" dequeue_entity ";
+" __srcu_read_unlock ";
+" mmput ";
+reweight_entity
+;
+flush_tlb_page
+;
+" apparmor_file_free_security ";
+ktime_get_ts
+;
+getnstimeofday
+;
+" rcu_irq_exit ";
+padzero
+;
+sys_fstat64
+;
+sched_exec
+;
+ext4_xattr_security_get
+;
+invalidate_inode_pages2_range
+;
+" fuse_flush_writepages ";
+place_entity
+;
+" cpuacct_charge ";
+" skb_put ";
+" search_exception_tables ";
+" kfree ";
+" check_for_new_grace_period.isra.26 ";
+" irq_enter ";
+" fuse_change_attributes ";
+" load_misc_binary ";
+enable_8259A_irq
+;
+" mem_cgroup_count_vm_event ";
+" __mmdrop ";
+" copy_semundo ";
+" strlen ";
+__free_pages
+;
+enqueue_to_backlog
+;
+" fpu_finit ";
+" xfer_secondary_pool ";
+terminate_walk
+;
+" apparmor_bprm_committed_creds ";
+mnt_want_write
+;
+" mod_timer ";
+" get_user_pages ";
+" hrtimer_interrupt ";
+fuse_flush
+;
+filp_close
+;
+" audit_finish_fork ";
+" sigprocmask ";
+" native_io_delay ";
+mem_cgroup_uncharge_page
+;
+" file_sb_list_del ";
+" usb_hcd_irq ";
+" irq_exit ";
+do_device_not_available
+;
+" copy_strings ";
+" set_current_blocked ";
+" mem_cgroup_charge_statistics.isra.26 ";
+load_elf_binary
+;
+" handle_truncate ";
+" put_prev_entity ";
+" arch_get_unmapped_area_topdown ";
+tlb_finish_mmu
+;
+kmem_cache_alloc_trace
+;
+sys_stat64
+;
+" alloc_pidmap ";
+" update_stats_wait_end ";
+usbnet_skb_return
+;
+" copy_creds ";
+" printk_tick ";
+" ktime_get_ts ";
+nameidata_to_filp
+;
+anon_vma_clone
+;
+" pid_nr_ns ";
+tasklet_action
+;
+" __math_state_restore ";
+" __cond_resched ";
+" find_extend_vma ";
+unshare_files
+;
+vfs_fstat
+;
+" rcu_do_batch.isra.32 ";
+" handle_level_irq ";
+do_softirq
+;
+" mark_page_accessed ";
+" remove_vma ";
+account_user_time
+;
+" vma_prio_tree_insert ";
+__put_cred
+;
+" blocking_notifier_call_chain ";
+" wq_worker_waking_up ";
+" cond_unmask_irq ";
+" rmqueue_bulk.constprop.68 ";
+" security_bprm_check ";
+sys_clone
+;
+d_absolute_path
+;
+" acct_stack_growth ";
+rcu_process_callbacks
+;
+finish_wait
+;
+" flush_itimer_signals ";
+" set_page_address ";
+" search_binary_handler ";
+rx_complete
+;
+" security_inode_setattr ";
+prepare_bprm_creds
+;
+get_random_bytes
+;
+" usb_hcd_unmap_urb_for_dma ";
+" extract_buf ";
+" handle_irq_event_percpu ";
+flush_itimer_signals
+;
+" mem_cgroup_charge_common ";
+" check_cpu_stall.isra.35 ";
+" clear_all_latency_tracing ";
+" aa_path_name ";
+fuse_perm_getattr
+;
+" d_absolute_path ";
+" rcu_check_quiescent_state ";
+" copy_strings_kernel ";
+" cap_capable ";
+" set_dumpable ";
+" is_bad_inode ";
+" __queue_work ";
+anon_vma_fork
+;
+copy_to_user
+;
+wait_consider_task
+;
+" free_bprm ";
+" acpi_pm_read ";
+drain_cpu_pagevecs
+;
+" __mem_cgroup_commit_charge ";
+arch_setup_additional_pages
+;
+" update_wall_time ";
+" page_add_new_anon_rmap ";
+" kill_fasync ";
+sys_set_thread_area
+;
+" set_mm_exe_file ";
+pid_vnr
+;
+" __vm_enough_memory ";
+init_new_context
+;
+___pte_free_tlb
+;
+mem_cgroup_del_lru_list
+;
+" arch_get_unmapped_exec_area ";
+" usb_free_urb ";
+rcu_report_qs_rnp
+;
+kzfree
+;
+" sched_autogroup_fork ";
+" vm_stat_account ";
+" vfs_read ";
+usb_hcd_giveback_urb
+;
+" do_mmap_pgoff ";
+__cond_resched
+;
+" __mutex_init ";
+____pagevec_lru_add_fn
+;
+" tasklet_action ";
+" copy_signal ";
+" __copy_from_user_ll ";
+" __rcu_pending ";
+" fuse_file_alloc ";
+error_code
+;
+usb_hcd_irq
+;
+" ____pagevec_lru_add_fn ";
+" current_fs_time ";
+" copy_fs ";
+lookup_mnt
+;
+do_general_protection
+;
+radix_tree_node_rcu_free
+;
+" handle_irq ";
+" vm_normal_page ";
+cond_unmask_irq
+;
+" fuse_change_attributes_common ";
+page_remove_rmap
+;
+dequeue_task_fair
+;
+" default_wake_function ";
+" lru_add_drain ";
+request_wait_answer
+;
+" native_flush_tlb ";
+" __set_task_blocked ";
+" fuse_get_attr_version ";
+" vfsmount_lock_local_unlock ";
+common_mmap
+;
+" page_remove_rmap ";
+" dnotify_flush ";
+" irq_to_desc ";
+" kmalloc_order_trace ";
+" fuse_change_entry_timeout ";
+bprm_mm_init
+;
+" unlock_page ";
+" up_write ";
+" sys_brk ";
+" rndis_rx_fixup ";
+" unmap_mapping_range ";
+" kmap ";
+" xattr_resolve_name ";
+" dequeue_task_fair ";
+" tls_desc_okay ";
+" _raw_spin_lock_irqsave ";
+" dequeue_task ";
+" __mem_cgroup_uncharge_common ";
+" apparmor_bprm_committing_creds ";
+" set_task_comm ";
+" pud_huge ";
+kmap
+;
+fuse_dentry_revalidate
+;
+" __lookup_mnt ";
+kernel_read
+;
+" __local_bh_enable ";
+" open_exec ";
+" sys_fstat64 ";
+" touch_atime ";
+" install_exec_creds ";
+" anon_vma_clone ";
+unmap_urb_for_dma
+;
+do_fork
+;
+" notify_change ";
+do_mmap
+;
+" task_fork_fair ";
+____pagevec_lru_add
+;
+" __get_user_pages ";
+kmem_cache_alloc
+;
+ehci_irq
+;
+clear_user
+;
+mm_alloc
+;
+" aa_dup_task_context ";
+fput
+;
+" finish_wait ";
+" sched_slice.isra.89 ";
+" ttwu_do_wakeup ";
+" set_normalized_timespec ";
+" put_page ";
+credit_entropy_bits
+;
+" add_wait_queue ";
+" is_file_shm_hugepages ";
+__fput
+;
+" flush_old_exec ";
+" check_lazy_exec_limit.isra.12 ";
+check_unsafe_exec
+;
+get_user_pages
+;
+install_special_mapping
+;
+" rw_verify_area ";
+" down_write ";
+truncate_inode_page
+;
+default_wake_function
+;
+__dentry_open
+;
+__set_task_blocked
+;
+wait_answer_interruptible
+;
+" filemap_fault ";
+" fuse_open_common ";
+usb_hcd_link_urb_to_ep
+;
+" ktime_get ";
+qh_completions
+;
+" prepare_to_wait ";
+" __pagevec_release ";
+" __wake_up_common ";
+__mem_cgroup_commit_charge
+;
+" detach_vmas_to_be_unmapped ";
+kunmap_high
+;
+" insert_vm_struct ";
+" submit_async.isra.72 ";
+alloc_pid
+;
+" put_prev_task_fair ";
+" __follow_mount_rcu.isra.10 ";
+" mmap_region ";
+" pgd_alloc ";
+" _raw_spin_unlock_irqrestore ";
+" __slab_alloc.constprop.68 ";
+invalidate_inode_pages2
+;
+" unlazy_walk ";
+" __lru_cache_add ";
+" wait_task_stopped ";
+" sys_execve ";
+" mem_cgroup_uncharge_start ";
+" get_seccomp_filter ";
+" wait_answer_interruptible ";
+" security_vm_enough_memory_mm ";
+__split_vma
+;
+" current_kernel_time ";
+" pagevec_lookup ";
+find_attach
+;
+" get_name_to_buffer ";
+" entry_attr_timeout ";
+" expand_downwards ";
+" sys_munmap ";
+" ksize ";
+" arch_randomize_brk ";
+__mmdrop
+;
+" d_namespace_path ";
+unmap_page_range
+;
+security_inode_permission
+;
+" mutex_lock_interruptible ";
+page_add_new_anon_rmap
+;
+" in_group_p ";
+" unmap_vmas ";
+" __remove_hrtimer ";
+" security_file_mmap ";
+" fuse_fillattr ";
+" check_preempt_wakeup ";
+" rx_submit ";
+zap_pte_range
+;
+" __attach_match ";
+" anon_vma_prepare ";
+" wakeup_preempt_entity.isra.92 ";
+" do_generic_file_read.constprop.31 ";
+sys_wait4
+;
+" get_file_caps ";
+insert_vm_struct
+;
+handle_truncate
+;
+path_get
+;
+" __mod_zone_page_state ";
+" flush_signal_handlers ";
+__delete_from_page_cache
+;
+" cancel_dirty_page ";
+" count.constprop.23 ";
+sched_clock_tick
+;
+" should_remove_suid ";
+sys_dup3
+;
+" do_execve_common ";
+" idle_cpu ";
+" account_system_time ";
+" security_inode_getattr ";
+" mm_release ";
+fuse_request_init
+;
+strrchr
+;
+truncate_pagecache
+;
+" get_unmapped_area_prot.part.21 ";
+dma_pool_alloc
+;
+" flush_thread ";
+" special_mapping_fault ";
+rcu_check_callbacks
+;
+pick_next_task_fair
+;
+" get_mm_exe_file ";
+setup_new_exec
+;
+security_inode_getattr
+;
+exit_mmap
+;
+" nameidata_to_filp ";
+" locks_remove_posix ";
+security_inode_setattr
+;
+" tlb_finish_mmu ";
+get_page_from_freelist
+;
+fsnotify
+;
+"__lookup_hash.part.26\n";
+__pte_alloc
+;
+" rcu_start_gp_per_cpu.isra.6 ";
+"copy_process.part.23\n";
+" security_bprm_committed_creds ";
+memzero_explicit
+;
+unmap_mapping_range
+;
+free_pgd_range
+;
+" do_sync_read ";
+" complete_walk ";
+" path_openat ";
+" cap_inode_permission ";
+" sys_dup3 ";
+" __call_rcu ";
+" apparmor_capable ";
+kunmap
+;
+" rcu_report_qs_rsp ";
+" wakeup_softirqd ";
+" dup_fd ";
+" set_next_entity ";
+" __tasklet_schedule ";
+" __get_free_pages ";
+" release_tgcred.isra.3 ";
+" load_elf_interp ";
+" fget_raw_light ";
+mmap_rnd
+;
+prepend_path
+;
+" ext4_xattr_security_get ";
+" pmd_huge ";
+" unshare_fd ";
+security_vm_enough_memory
+;
+" get_random_int ";
+user_path_at_empty
+;
+exec_mmap
+;
+__get_free_pages
+;
+insert_work
+;
+_copy_from_user
+;
+"mmput.part.21\n";
+arch_dup_task_struct
+;
+cap_vm_enough_memory
+;
+" security_file_free ";
+" __insert_vm_struct ";
+" dquot_file_open ";
+update_page_reclaim_stat
+;
+" snd_intel8x0_interrupt ";
+unlink_anon_vmas
+;
+" ktime_get_update_offsets ";
+" sched_fork ";
+ext4_getattr
+;
+" do_filp_open ";
+" mix_pool_bytes.constprop.8 ";
+mntput
+;
+ktime_get_real
+;
+put_prev_task_fair
+;
+" kmap_high ";
+" alloc_fd ";
+" vma_link ";
+" do_IRQ ";
+" credit_entropy_bits ";
+" locks_remove_flock ";
+wake_up_new_task
+;
+release_pages
+;
+rcu_check_quiescent_state
+;
+" apparmor_file_permission ";
+put_prev_entity
+;
+" profile_munmap ";
+hrtimer_interrupt
+;
+" put_cpu_partial ";
+" _raw_read_lock ";
+copy_page_range
+;
+" inode_newsize_ok ";
+" queue_request ";
+" unmap_region ";
+" rcu_start_gp ";
+sys_access
+;
+timekeeping_update
+;
+sys_dup2
+;
+" flush_old_files ";
+dup_fd
+;
+sysfs_dentry_revalidate
+;
+" __delete_from_page_cache ";
+fuse_permission
+;
+" usb_hcd_unlink_urb_from_ep ";
+prepare_creds
+;
+" memcpy ";
+" cgroup_fork ";
+ttwu_queue
+;
+" handle_pte_fault ";
+"get_unmapped_area_prot.part.21\n";
+" PageHuge ";
+" __dentry_open ";
+" __wake_up_bit ";
+security_file_permission
+;
+" __enqueue_entity ";
+" task_tick_fair ";
+" page_move_anon_rmap ";
+" fuse_permission ";
+do_filp_open
+;
+" sys_fcntl64 ";
+extract_entropy
+;
+change_protection
+;
+" __pagevec_free ";
+unlock_page
+;
+" getname_flags ";
+" dma_pool_free ";
+fuse_change_attributes
+;
+" fuse_finish_open ";
+__tlb_remove_page
+;
+" security_dentry_open ";
+" sys_dup2 ";
+" vma_adjust ";
+" pgd_free ";
+__rcu_process_callbacks
+;
+" reweight_entity ";
+" vfs_fstatat ";
+" fuse_lock_owner_id ";
+" free_pgtables ";
+" sys_faccessat ";
+__copy_from_user_ll
+;
+inode_change_ok
+;
+__wake_up
+;
+" ptep_set_access_flags ";
+prepare_binprm
+;
+do_sync_read
+;
+" de_thread ";
+scan_periodic
+;
+blocking_notifier_call_chain
+;
+" mm_update_next_owner ";
+" attach_pid ";
+" kmap_atomic_prot ";
+arch_pick_mmap_layout
+;
+" mutex_unlock ";
+" hrtimer_forward ";
+" override_creds ";
+elf_map
+;
+do_wp_page
+;
+" mem_cgroup_update_page_stat ";
+__vma_link_file
+;
+try_to_wake_up
+;
+sysfs_permission
+;
+may_open
+;
+" find_get_page ";
+" vfsmount_lock_local_lock ";
+handle_irq_event_percpu
+;
+" path_lookupat ";
+set_task_comm
+;
+" mnt_drop_write ";
+radix_tree_delete
+;
+rcu_start_gp
+;
+mem_cgroup_count_vm_event
+;
+update_cfs_shares
+;
+" fuse_open ";
+user_path_at
+;
+" truncate_inode_page ";
+do_anonymous_page
+;
+" fuse_update_attributes ";
+path_put
+;
+" added_exe_file_vma ";
+" clockevents_program_event ";
+__kmalloc
+;
+free_pages
+;
+" __dec_zone_page_state ";
+run_local_timers
+;
+drop_file_write_access
+;
+pagevec_lookup
+;
+" ___pte_free_tlb ";
+" ttwu_stat ";
+change_pte_range
+;
+work_notifysig
+;
+sched_fork
+;
+file_free_rcu
+;
+" set_next_buddy ";
+" __alloc_skb ";
+inode_permission
+;
+" find_get_pages ";
+" mem_cgroup_del_lru_list ";
+mem_cgroup_add_lru_list
+;
+" fuse_do_getattr ";
+" prepare_exec_creds ";
+do_munmap
+;
+" acct_arg_size.isra.7 ";
+" ehci_urb_done ";
+fuse_set_nowrite
+;
+" xfer_secondary_pool.part.5 ";
+" next_zones_zonelist ";
+" call_timer_fn ";
+"__follow_mount_rcu.isra.10\n";
+__kunmap_atomic
+;
+__slab_free
+;
+" uhci_irq ";
+" copy_io ";
+kmalloc_order_trace
+;
+ehci_urb_enqueue
+;
+task_tick_fair
+;
+" set_tls_desc ";
+vfs_read
+;
+" usb_submit_urb ";
+__schedule
+;
+" down_read_trylock ";
+" rcu_bh_qs ";
+deactivate_task
+;
+find_mergeable_anon_vma
+;
+expand_downwards
+;
+"rndis_rx_fixup.part.8\n";
+" request_wait_answer ";
+tick_program_event
+;
+" path_init ";
+fuse_request_free
+;
+" update_rq_clock ";
+rx_submit
+;
+" special_mapping_close ";
+" get_jiffies_64 ";
+" find_mergeable_anon_vma ";
+common_interrupt
+;
+" check_file ";
+" ehci_work ";
+" __mnt_is_readonly ";
+" ehci_irq ";
+vfs_fstatat
+;
+" security_vm_enough_memory ";
+__bprm_mm_init
+;
+" dup_task_struct ";
+de_thread
+;
+math_state_restore
+;
+lru_cache_add_lru
+;
+" select_task_rq_fair ";
+scan_async
+;
+"count.constprop.23\n";
+" find_attach ";
+setup_arg_pages
+;
+flush_old_exec
+;
+"netif_rx.part.87\n";
+skb_dequeue
+;
+" sys_mprotect ";
+fuse_getattr
+;
+get_empty_filp
+;
+" mem_cgroup_get_reclaim_stat_from_page ";
+" file_ra_state_init ";
+" get_vfs_caps_from_disk ";
+" copy_page_range ";
+__copy_to_user_ll
+;
+" common_perm ";
+" mem_cgroup_uncharge_page ";
+" putname ";
+getname
+;
+" unregister_hw_breakpoint ";
+" kunmap_high ";
+" lookup_mnt ";
+do_execve_common
+;
+" files_lglock_local_lock ";
+" sys_stat64 ";
+" get_gate_vma ";
+" vfs_getattr ";
+put_page
+;
+activate_task
+;
+page_address
+;
+" hrtimer_run_pending ";
+" irq_handler ";
+" deactivate_task ";
+" release_open_intent ";
+account_kernel_stack
+;
+" get_empty_filp ";
+copy_signal
+;
+" move_page_tables ";
+" __copy_from_user_ll.part.1 ";
+" try_to_wake_up ";
+" apparmor_bprm_secureexec ";
+mem_cgroup_uncharge_cache_page
+;
+fuse_do_open
+;
+" fd_install ";
+" nommu_map_page ";
+" __flush_itimer_signals ";
+do_set_thread_area
+;
+mask_and_ack_8259A
+;
+sys_mmap_pgoff
+;
+cgroup_post_fork
+;
+"rcu_do_batch.isra.32\n";
+free_thread_xstate
+;
+security_task_wait
+;
+" mem_cgroup_newpage_charge ";
+acct_stack_growth
+;
+" __lookup_hash.part.26 ";
+" prepare_to_copy ";
+prepare_to_wait
+;
+" ptep_clear_flush ";
+usb_submit_urb
+;
+"fuse_send_open.isra.17\n";
+link_path_walk
+;
+task_fork_fair
+;
+" strnlen_user ";
+" copy_thread ";
+" generic_file_open ";
+__attach_match
+;
+" bprm_mm_init ";
+do_fcntl
+;
+" skb_trim ";
+unmap_region
+;
+extract_buf
+;
+" mutex_lock ";
+" do_truncate ";
+wakeup_softirqd
+;
+" fuse_do_setattr.isra.15 ";
+ptregs_execve
+;
+" copy_process.part.23 ";
+prep_new_page
+;
+copy_fs_struct
+;
+" wait_consider_task.part.9 ";
+" __wake_up ";
+" __do_fault ";
+" __mem_cgroup_try_charge ";
+delete_from_page_cache
+;
+" resched_task ";
+" hrtimer_run_queues ";
+dget_parent
+;
+flush_thread
+;
+" user_path_at ";
+" update_process_times ";
+check_preempt_curr
+;
+" filp_close ";
+" rcu_process_gp_end.isra.24 ";
+" init_fpu ";
+" kunmap ";
+" _raw_spin_lock ";
+sys_mprotect
+;
+apparmor_inode_getattr
+;
+" qh_completions ";
+" files_lglock_local_unlock_cpu ";
+" memset ";
+" calc_global_load ";
+" prepend ";
+" security_bprm_committing_creds ";
+" free_pgd_range ";
+" arch_align_stack ";
+" credit_entropy_bits.part.3 ";
+security_prepare_creds
+;
+" apparmor_cred_prepare ";
+schedule_tail
+;
+aa_path_name
+;
+expand_stack
+;
+usb_hcd_unlink_urb_from_ep
+;
+" finish_task_switch ";
+" generic_file_aio_read ";
+" unshare_files ";
+hrtick_update
+;
+acl_permission_check
+;
+" path_get ";
+" update_page_reclaim_stat ";
+" __mem_cgroup_threshold ";
+vfs_write
+;
+" fuse_setattr ";
+" sysfs_permission ";
+" do_fcntl ";
+" cap_bprm_set_creds ";
+security_vm_enough_memory_mm
+;
+" recalc_sigpending_tsk ";
+do_iret_error
+;
+cgroup_fork
+;
+handle_mm_fault
+;
+" free_page_and_swap_cache ";
+apparmor_file_free_security
+;
+" expand_stack ";
+" sched_info_arrive ";
+dup_mmap
+;
+" user_path_at_empty ";
+" sys_access ";
+" tlb_flush_mmu ";
+__put_single_page
+;
+copy_pte_range
+;
+sys_faccessat
+;
+"__tracing_open.isra.21\n";
+" strncpy_from_user ";
+ptep_clear_flush
+;
+" mem_cgroup_add_lru_list ";
+" can_vma_merge_before ";
+" skb_pull ";
+" math_state_restore ";
+flush_old_files
+;
+vma_prio_tree_insert
+;
+syscall_after_call
+;
+" reusable_anon_vma ";
+set_next_entity
+;
+handle_irq_event
+;
+check_preempt_wakeup
+;
+" mm_init ";
+sys_read
+;
+" zone_watermark_ok ";
+" down_read ";
+" load_elf_binary ";
+" key_put ";
+" removed_exe_file_vma ";
+" scheduler_tick ";
+" prepare_binprm ";
+" follow_managed ";
+monotonic_to_bootbased
+;
+" evm_inode_setattr ";
+" dget_parent ";
+" ext4_xattr_ibody_get ";
+do_path_lookup
+;
+" vma_wants_writenotify ";
+call_rcu_sched
+;
+" our_mnt ";
+" ext4_follow_link ";
+__task_pid_nr_ns
+;
+vma_link
+;
+__queue_work
+;
+" cap_inode_follow_link ";
+apparmor_cred_prepare
+;
+call_timer_fn
+;
+" copy_namespaces ";
+" do_brk ";
+" add_interrupt_randomness ";
+" link_path_walk ";
+ktime_get
+;
+free_page_and_swap_cache
+;
+" __put_single_page ";
+mutex_lock_interruptible
+;
+" do_notify_resume ";
+timer_interrupt
+;
+" activate_task ";
+dma_pool_free
+;
+do_wait
+;
+" ns_capable ";
+" __lock_task_sighand ";
+" get_page_from_freelist ";
+dequeue_task
+;
+recalc_sigpending
+;
+kmap_high
+ -> " _raw_spin_lock ";
+kmap_high
+ -> " page_address ";
+kmap_high
+ -> " set_page_address ";
+tty_audit_fork
+ -> " _raw_spin_lock_irq ";
+update_curr
+ -> " cpuacct_charge ";
+__delayacct_tsk_init
+ -> " kmem_cache_alloc ";
+"__page_cache_release.part.8\n" -> " __mod_zone_page_state ";
+"__page_cache_release.part.8\n" -> " _raw_spin_lock_irqsave ";
+"__page_cache_release.part.8\n" -> " mem_cgroup_del_lru_list ";
+"__page_cache_release.part.8\n" -> " _raw_spin_unlock_irqrestore ";
+security_task_create
+ -> " cap_task_create ";
+fuse_open_common
+ -> " fuse_finish_open ";
+fuse_open_common
+ -> " generic_file_open ";
+fuse_open_common
+ -> " fuse_do_open ";
+pit_next_event
+ -> " _raw_spin_lock ";
+pit_next_event
+ -> " native_io_delay ";
+__kmap_atomic
+ -> " kmap_atomic_prot ";
+security_dentry_open
+ -> " fsnotify ";
+security_dentry_open
+ -> " __fsnotify_parent ";
+security_dentry_open
+ -> " apparmor_dentry_open ";
+__get_user_pages
+ -> " follow_page ";
+__get_user_pages
+ -> " find_extend_vma ";
+__get_user_pages
+ -> " handle_mm_fault ";
+__get_user_pages
+ -> " _cond_resched ";
+security_bprm_committed_creds
+ -> " apparmor_bprm_committed_creds ";
+ptep_set_access_flags
+ -> " flush_tlb_page ";
+usb_hcd_unmap_urb_for_dma
+ -> " usb_hcd_unmap_urb_setup_for_dma ";
+free_bprm
+ -> " kfree ";
+pgd_free
+ -> " _raw_spin_lock ";
+pgd_free
+ -> " free_pages ";
+vma_merge
+ -> " can_vma_merge_before ";
+__alloc_skb
+ -> " ksize ";
+__alloc_skb
+ -> " kmem_cache_alloc ";
+__alloc_skb
+ -> " __kmalloc_track_caller ";
+dput
+ -> " _raw_spin_lock ";
+dput
+ -> " _cond_resched ";
+__fsnotify_parent
+ -> " dget_parent ";
+__fsnotify_parent
+ -> " dput ";
+notify_change
+ -> " security_inode_setattr ";
+notify_change
+ -> " fsnotify ";
+notify_change
+ -> " evm_inode_post_setattr ";
+notify_change
+ -> " __fsnotify_parent ";
+notify_change
+ -> " current_fs_time ";
+notify_change
+ -> " fuse_setattr ";
+do_mmap_pgoff
+ -> " security_file_mmap ";
+do_mmap_pgoff
+ -> " get_unmapped_area_prot ";
+do_mmap_pgoff
+ -> " mmap_region ";
+sigprocmask
+ -> " set_current_blocked ";
+shift_arg_pages
+ -> " find_vma ";
+shift_arg_pages
+ -> " tlb_finish_mmu ";
+shift_arg_pages
+ -> " vma_adjust ";
+shift_arg_pages
+ -> " lru_add_drain ";
+shift_arg_pages
+ -> " free_pgd_range ";
+shift_arg_pages
+ -> " move_page_tables ";
+shift_arg_pages
+ -> " tlb_gather_mmu ";
+memcg_check_events
+ -> " __mem_cgroup_threshold ";
+__alloc_pages_nodemask
+ -> " _cond_resched ";
+__alloc_pages_nodemask
+ -> " get_page_from_freelist ";
+__alloc_pages_nodemask
+ -> " next_zones_zonelist ";
+acct_update_integrals
+ -> " get_mm_counter ";
+acct_update_integrals
+ -> " jiffies_to_timeval ";
+pte_alloc_one
+ -> " inc_zone_page_state ";
+pte_alloc_one
+ -> " __alloc_pages_nodemask ";
+pgd_alloc
+ -> " __get_free_pages ";
+pgd_alloc
+ -> " _raw_spin_lock ";
+wake_up_process
+ -> " try_to_wake_up ";
+unmask_8259A_irq
+ -> " _raw_spin_unlock_irqrestore ";
+unmask_8259A_irq
+ -> " _raw_spin_lock_irqsave ";
+sys_open
+ -> " do_sys_open ";
+unlazy_walk
+ -> " _raw_spin_lock ";
+unlazy_walk
+ -> " vfsmount_lock_local_unlock ";
+unlazy_walk
+ -> " path_get ";
+unlazy_walk
+ -> " mntget ";
+_cond_resched
+ -> " __cond_resched ";
+enqueue_entity
+ -> " update_cfs_load ";
+enqueue_entity
+ -> " __enqueue_entity ";
+enqueue_entity
+ -> " enqueue_sleeper ";
+enqueue_entity
+ -> " update_cfs_shares ";
+enqueue_entity
+ -> " place_entity ";
+enqueue_entity
+ -> " update_curr ";
+delayed_work_timer_fn
+ -> " __queue_work ";
+mmap_region
+ -> " added_exe_file_vma ";
+mmap_region
+ -> " security_vm_enough_memory ";
+mmap_region
+ -> " do_munmap ";
+mmap_region
+ -> " vma_wants_writenotify ";
+mmap_region
+ -> " find_vma_prepare ";
+mmap_region
+ -> " vma_link ";
+mmap_region
+ -> " vma_merge ";
+mmap_region
+ -> " kmem_cache_alloc ";
+mmap_region
+ -> " vm_stat_account ";
+mmap_region
+ -> " is_file_shm_hugepages ";
+mmap_region
+ -> " ext4_file_mmap ";
+would_dump
+ -> " inode_permission ";
+copy_process
+ -> " copy_process.part.23 ";
+apparmor_file_mprotect
+ -> " common_mmap ";
+copy_strings_kernel
+ -> " copy_strings ";
+copy_creds
+ -> " prepare_creds ";
+copy_creds
+ -> " release_tgcred.isra.3 ";
+copy_creds
+ -> " kmem_cache_alloc_trace ";
+kmap_atomic_prot
+ -> " page_address ";
+strnlen_user
+ -> " _cond_resched ";
+randomize_range
+ -> " get_random_int ";
+fuse_do_getattr
+ -> " fuse_fillattr ";
+fuse_do_getattr
+ -> " fuse_request_send ";
+fuse_do_getattr
+ -> " fuse_get_req ";
+fuse_do_getattr
+ -> " fuse_get_attr_version ";
+fuse_do_getattr
+ -> " fuse_put_request ";
+fuse_do_getattr
+ -> " fuse_change_attributes ";
+security_file_fcntl
+ -> " cap_file_fcntl ";
+__do_softirq
+ -> " __local_bh_enable ";
+__do_softirq
+ -> " run_timer_softirq ";
+__do_softirq
+ -> " rcu_process_callbacks ";
+__do_softirq
+ -> " wakeup_softirqd ";
+__do_softirq
+ -> " msecs_to_jiffies ";
+__do_softirq
+ -> " rcu_bh_qs ";
+__do_softirq
+ -> " tasklet_action ";
+__inc_zone_page_state
+ -> " __inc_zone_state ";
+free_pages_prepare
+ -> " page_address ";
+__put_anon_vma
+ -> " kmem_cache_free ";
+__put_anon_vma
+ -> " _cond_resched ";
+load_misc_binary
+ -> " _raw_read_lock ";
+load_misc_binary
+ -> " check_file ";
+create_elf_tables
+ -> " copy_to_user ";
+create_elf_tables
+ -> " strlen ";
+create_elf_tables
+ -> " strnlen_user ";
+create_elf_tables
+ -> " get_random_bytes ";
+create_elf_tables
+ -> " _cond_resched ";
+create_elf_tables
+ -> " arch_align_stack ";
+create_elf_tables
+ -> " __copy_to_user_ll ";
+create_elf_tables
+ -> " find_extend_vma ";
+create_elf_tables
+ -> " security_bprm_secureexec ";
+mmput
+ -> " _cond_resched ";
+mmput
+ -> " mmput.part.21 ";
+get_vfs_caps_from_disk
+ -> " generic_getxattr ";
+down_write
+ -> " _cond_resched ";
+aa_alloc_task_context
+ -> " kmem_cache_alloc_trace ";
+tlb_flush_mmu
+ -> " flush_tlb_mm ";
+flush_tlb_mm
+ -> " native_flush_tlb ";
+do_execve
+ -> " do_execve_common ";
+do_IRQ
+ -> " irq_exit ";
+do_IRQ
+ -> " handle_irq ";
+do_IRQ
+ -> " irq_enter ";
+"ehci_qtd_alloc.isra.71\n" -> " dma_pool_alloc ";
+init_fpu
+ -> " kmem_cache_alloc ";
+init_fpu
+ -> " fpu_finit ";
+security_capable
+ -> " apparmor_capable ";
+fuse_setattr
+ -> " fuse_do_setattr.isra.15 ";
+fuse_change_entry_timeout
+ -> " get_jiffies_64 ";
+fuse_change_entry_timeout
+ -> " timespec_to_jiffies ";
+mem_cgroup_get_reclaim_stat_from_page
+ -> " lookup_page_cgroup ";
+dup_mm
+ -> " get_mm_counter ";
+dup_mm
+ -> " dup_mmap ";
+dup_mm
+ -> " mm_init ";
+dup_mm
+ -> " init_new_context ";
+dup_mm
+ -> " kmem_cache_alloc ";
+dup_mm
+ -> " get_mm_exe_file ";
+timer_action
+ -> " mod_timer ";
+free_pcppages_bulk
+ -> " _raw_spin_lock ";
+free_pcppages_bulk
+ -> " __mod_zone_page_state ";
+wake_up_worker
+ -> " wake_up_process ";
+open_exec
+ -> " do_filp_open ";
+open_exec
+ -> " fsnotify ";
+open_exec
+ -> " __fsnotify_parent ";
+ehci_urb_done
+ -> " _raw_spin_lock ";
+ehci_urb_done
+ -> " usb_hcd_unlink_urb_from_ep ";
+ehci_urb_done
+ -> " usb_hcd_giveback_urb ";
+__percpu_counter_add
+ -> " _raw_spin_lock ";
+set_current_blocked
+ -> " _raw_spin_lock_irq ";
+set_current_blocked
+ -> " __set_task_blocked ";
+mem_cgroup_newpage_charge
+ -> " mem_cgroup_charge_common ";
+tick_do_update_jiffies64
+ -> " _raw_spin_lock ";
+tick_do_update_jiffies64
+ -> " do_timer ";
+netif_rx
+ -> " netif_rx.part.87 ";
+security_file_alloc
+ -> " apparmor_file_alloc_security ";
+"move_ptes.isra.17\n" -> " _raw_spin_lock ";
+"move_ptes.isra.17\n" -> " __kmap_atomic ";
+"move_ptes.isra.17\n" -> " __kunmap_atomic ";
+fuse_get_attr_version
+ -> " _raw_spin_lock ";
+fuse_request_alloc
+ -> " kmem_cache_alloc ";
+fuse_request_alloc
+ -> " fuse_request_init ";
+__lock_task_sighand
+ -> " _raw_spin_lock ";
+arch_randomize_brk
+ -> " randomize_range ";
+security_bprm_set_creds
+ -> " apparmor_bprm_set_creds ";
+split_vma
+ -> " __split_vma ";
+__d_lookup
+ -> " _raw_spin_lock ";
+vfs_stat
+ -> " vfs_fstatat ";
+set_close_on_exec
+ -> " _raw_spin_lock ";
+wq_worker_waking_up
+ -> " kthread_data ";
+free_pgtables
+ -> " unlink_file_vma ";
+free_pgtables
+ -> " unlink_anon_vmas ";
+free_pgtables
+ -> " free_pgd_range ";
+__switch_to
+ -> " __math_state_restore ";
+fixup_exception
+ -> " search_exception_tables ";
+dquot_file_open
+ -> " generic_file_open ";
+generic_getxattr
+ -> " xattr_resolve_name ";
+generic_getxattr
+ -> " ext4_xattr_security_get ";
+touch_atime
+ -> " current_fs_time ";
+pagevec_lru_move_fn
+ -> " _raw_spin_unlock_irqrestore ";
+pagevec_lru_move_fn
+ -> " _raw_spin_lock_irqsave ";
+pagevec_lru_move_fn
+ -> " release_pages ";
+pagevec_lru_move_fn
+ -> " ____pagevec_lru_add_fn ";
+__pagevec_release
+ -> " lru_add_drain ";
+__pagevec_release
+ -> " release_pages ";
+__rcu_pending
+ -> " check_cpu_stall.isra.35 ";
+file_read_actor
+ -> " __copy_to_user_ll ";
+file_read_actor
+ -> " __kmap_atomic ";
+file_read_actor
+ -> " __kunmap_atomic ";
+fuse_put_request
+ -> " fuse_request_free ";
+"mix_pool_bytes.constprop.8\n" -> " _raw_spin_unlock_irqrestore ";
+"mix_pool_bytes.constprop.8\n" -> " _raw_spin_lock_irqsave ";
+"mix_pool_bytes.constprop.8\n" -> " __mix_pool_bytes ";
+security_bprm_check
+ -> " cap_bprm_check_security ";
+strncpy_from_user
+ -> " _cond_resched ";
+profile_munmap
+ -> " blocking_notifier_call_chain ";
+queue_request
+ -> " __wake_up ";
+queue_request
+ -> " kill_fasync ";
+free_hot_cold_page
+ -> " get_pageblock_flags_group ";
+free_hot_cold_page
+ -> " free_pages_prepare ";
+free_hot_cold_page
+ -> " free_pcppages_bulk ";
+__insert_vm_struct
+ -> " __vma_link_list ";
+__insert_vm_struct
+ -> " find_vma_prepare ";
+__insert_vm_struct
+ -> " __vma_link_rb ";
+update_process_times
+ -> " scheduler_tick ";
+update_process_times
+ -> " run_posix_cpu_timers ";
+update_process_times
+ -> " run_local_timers ";
+update_process_times
+ -> " rcu_check_callbacks ";
+update_process_times
+ -> " printk_tick ";
+update_process_times
+ -> " account_process_tick ";
+load_elf_interp
+ -> " up_write ";
+load_elf_interp
+ -> " total_mapping_size ";
+load_elf_interp
+ -> " padzero ";
+load_elf_interp
+ -> " kernel_read ";
+load_elf_interp
+ -> " __kmalloc ";
+load_elf_interp
+ -> " elf_map ";
+load_elf_interp
+ -> " kfree ";
+load_elf_interp
+ -> " down_write ";
+load_elf_interp
+ -> " do_brk ";
+rndis_rx_fixup
+ -> " rndis_rx_fixup.part.8 ";
+scheduler_tick
+ -> " _raw_spin_lock ";
+scheduler_tick
+ -> " task_tick_fair ";
+scheduler_tick
+ -> " update_rq_clock ";
+scheduler_tick
+ -> " __update_cpu_load ";
+apparmor_path_truncate
+ -> " common_perm ";
+get_file_caps
+ -> " _raw_spin_lock ";
+get_file_caps
+ -> " dput ";
+get_file_caps
+ -> " get_vfs_caps_from_disk ";
+move_page_tables
+ -> " flush_tlb_mm ";
+move_page_tables
+ -> " __pte_alloc ";
+move_page_tables
+ -> " move_ptes.isra.17 ";
+move_page_tables
+ -> " _cond_resched ";
+__dec_zone_page_state
+ -> " __dec_zone_state ";
+apparmor_bprm_set_creds
+ -> " kfree ";
+apparmor_bprm_set_creds
+ -> " find_attach ";
+apparmor_bprm_set_creds
+ -> " aa_path_name ";
+apparmor_bprm_set_creds
+ -> " cap_bprm_set_creds ";
+vma_adjust
+ -> " mutex_lock ";
+vma_adjust
+ -> " mutex_unlock ";
+vma_adjust
+ -> " __vma_adjust_trans_huge ";
+vma_adjust
+ -> " vma_prio_tree_remove ";
+vma_adjust
+ -> " vma_prio_tree_insert ";
+vma_adjust
+ -> " __vma_link_file ";
+vma_adjust
+ -> " __insert_vm_struct ";
+unmap_vmas
+ -> " unmap_page_range ";
+get_arg_page
+ -> " get_user_pages ";
+get_arg_page
+ -> " acct_arg_size.isra.7 ";
+rcu_irq_enter
+ -> " rcu_exit_nohz ";
+__do_fault
+ -> " page_add_file_rmap ";
+__do_fault
+ -> " unlock_page ";
+__do_fault
+ -> " page_add_new_anon_rmap ";
+__do_fault
+ -> " add_mm_counter_fast ";
+__do_fault
+ -> " special_mapping_fault ";
+__do_fault
+ -> " _raw_spin_lock ";
+__do_fault
+ -> " anon_vma_prepare ";
+__do_fault
+ -> " mem_cgroup_newpage_charge ";
+__do_fault
+ -> " __kunmap_atomic ";
+__do_fault
+ -> " filemap_fault ";
+__do_fault
+ -> " put_page ";
+__do_fault
+ -> " __kmap_atomic ";
+__do_fault
+ -> " __alloc_pages_nodemask ";
+mm_init
+ -> " pgd_alloc ";
+account_system_time
+ -> " cpuacct_update_stats ";
+account_system_time
+ -> " acct_update_integrals ";
+path_init
+ -> " vfsmount_lock_local_lock ";
+"rmqueue_bulk.constprop.68\n" -> " _raw_spin_lock ";
+"rmqueue_bulk.constprop.68\n" -> " __rmqueue ";
+"rmqueue_bulk.constprop.68\n" -> " __mod_zone_page_state ";
+truncate_inode_pages_range
+ -> " pagevec_lookup ";
+truncate_inode_pages_range
+ -> " unlock_page ";
+truncate_inode_pages_range
+ -> " truncate_inode_page ";
+truncate_inode_pages_range
+ -> " _cond_resched ";
+truncate_inode_pages_range
+ -> " mem_cgroup_uncharge_start ";
+truncate_inode_pages_range
+ -> " __pagevec_release ";
+truncate_inode_pages_range
+ -> " mem_cgroup_uncharge_end ";
+enqueue_task
+ -> " enqueue_task_fair ";
+enqueue_task
+ -> " update_rq_clock ";
+update_rt_offset
+ -> " set_normalized_timespec ";
+putname
+ -> " kmem_cache_free ";
+handle_level_irq
+ -> " _raw_spin_lock ";
+handle_level_irq
+ -> " handle_irq_event ";
+handle_level_irq
+ -> " mask_and_ack_8259A ";
+handle_level_irq
+ -> " cond_unmask_irq ";
+truncate_inode_pages
+ -> " truncate_inode_pages_range ";
+ptregs_clone
+ -> " sys_clone ";
+get_name_to_buffer
+ -> " d_namespace_path ";
+remove_vma
+ -> " fput ";
+remove_vma
+ -> " special_mapping_close ";
+remove_vma
+ -> " kmem_cache_free ";
+remove_vma
+ -> " _cond_resched ";
+remove_vma
+ -> " removed_exe_file_vma ";
+sched_autogroup_fork
+ -> " _raw_spin_unlock_irqrestore ";
+sched_autogroup_fork
+ -> " __lock_task_sighand ";
+"mem_cgroup_add_lru_list.part.42\n" -> " lookup_page_cgroup ";
+rcu_report_qs_rsp
+ -> " rcu_start_gp ";
+do_sys_open
+ -> " fd_install ";
+do_sys_open
+ -> " putname ";
+do_sys_open
+ -> " fsnotify ";
+do_sys_open
+ -> " __fsnotify_parent ";
+do_sys_open
+ -> " alloc_fd ";
+do_sys_open
+ -> " do_filp_open ";
+do_sys_open
+ -> " getname ";
+tick_sched_timer
+ -> " update_process_times ";
+tick_sched_timer
+ -> " hrtimer_forward ";
+tick_sched_timer
+ -> " tick_do_update_jiffies64 ";
+tick_sched_timer
+ -> " ktime_get ";
+tick_sched_timer
+ -> " profile_tick ";
+usb_hcd_submit_urb
+ -> " usb_get_urb ";
+usb_hcd_submit_urb
+ -> " ehci_urb_enqueue ";
+usb_hcd_submit_urb
+ -> " usb_hcd_map_urb_for_dma ";
+sys_fcntl64
+ -> " security_file_fcntl ";
+sys_fcntl64
+ -> " fget_raw ";
+sys_fcntl64
+ -> " do_fcntl ";
+sys_fcntl64
+ -> " fput ";
+ret_from_fork
+ -> " schedule_tail ";
+get_unmapped_area_prot
+ -> " get_unmapped_area_prot.part.21 ";
+__run_hrtimer
+ -> " __remove_hrtimer ";
+__run_hrtimer
+ -> " _raw_spin_lock ";
+__run_hrtimer
+ -> " enqueue_hrtimer ";
+__run_hrtimer
+ -> " tick_sched_timer ";
+"fuse_do_setattr.isra.15\n" -> " fuse_request_send ";
+"fuse_do_setattr.isra.15\n" -> " fuse_get_req ";
+"fuse_do_setattr.isra.15\n" -> " fuse_set_nowrite ";
+"fuse_do_setattr.isra.15\n" -> " iattr_to_fattr ";
+"fuse_do_setattr.isra.15\n" -> " fuse_allow_task ";
+"fuse_do_setattr.isra.15\n" -> " fuse_change_attributes_common ";
+"fuse_do_setattr.isra.15\n" -> " fuse_flush_writepages ";
+"fuse_do_setattr.isra.15\n" -> " invalidate_inode_pages2 ";
+"fuse_do_setattr.isra.15\n" -> " fuse_put_request ";
+"fuse_do_setattr.isra.15\n" -> " _raw_spin_lock ";
+"fuse_do_setattr.isra.15\n" -> " inode_change_ok ";
+"fuse_do_setattr.isra.15\n" -> " truncate_pagecache ";
+"fuse_do_setattr.isra.15\n" -> " fuse_lock_owner_id ";
+sys_brk
+ -> " find_vma ";
+sys_brk
+ -> " up_write ";
+sys_brk
+ -> " down_write ";
+sys_brk
+ -> " do_brk ";
+fuse_file_alloc
+ -> " _raw_spin_lock ";
+fuse_file_alloc
+ -> " __init_waitqueue_head ";
+fuse_file_alloc
+ -> " fuse_request_alloc ";
+fuse_file_alloc
+ -> " kmem_cache_alloc_trace ";
+run_timer_softirq
+ -> " call_timer_fn ";
+run_timer_softirq
+ -> " hrtimer_run_pending ";
+run_timer_softirq
+ -> " _raw_spin_lock_irq ";
+mntput_no_expire
+ -> " vfsmount_lock_local_lock ";
+mntput_no_expire
+ -> " vfsmount_lock_local_unlock ";
+set_page_address
+ -> " _raw_spin_unlock_irqrestore ";
+set_page_address
+ -> " _raw_spin_lock_irqsave ";
+fuse_open
+ -> " fuse_open_common ";
+fuse_alloc_forget
+ -> " kmem_cache_alloc_trace ";
+security_file_mmap
+ -> " apparmor_file_mmap ";
+handle_pte_fault
+ -> " _raw_spin_lock ";
+handle_pte_fault
+ -> " do_wp_page ";
+handle_pte_fault
+ -> " do_anonymous_page ";
+handle_pte_fault
+ -> " __do_fault ";
+handle_pte_fault
+ -> " __kunmap_atomic ";
+ktime_get_update_offsets
+ -> " acpi_pm_read ";
+mutex_lock
+ -> " _cond_resched ";
+lock_page
+ -> " _cond_resched ";
+detach_vmas_to_be_unmapped
+ -> " arch_unmap_area_topdown ";
+prepend
+ -> " memcpy ";
+apparmor_file_mmap
+ -> " common_mmap ";
+apparmor_file_mmap
+ -> " cap_file_mmap ";
+dup_task_struct
+ -> " __alloc_pages_nodemask ";
+dup_task_struct
+ -> " page_address ";
+dup_task_struct
+ -> " get_random_int ";
+dup_task_struct
+ -> " arch_dup_task_struct ";
+dup_task_struct
+ -> " account_kernel_stack ";
+dup_task_struct
+ -> " prepare_to_copy ";
+dup_task_struct
+ -> " kmem_cache_alloc ";
+dup_task_struct
+ -> " tsk_fork_get_node ";
+update_wall_time
+ -> " logarithmic_accumulation ";
+update_wall_time
+ -> " timekeeping_update ";
+update_wall_time
+ -> " timekeeping_adjust ";
+update_wall_time
+ -> " acpi_pm_read ";
+get_mm_exe_file
+ -> " down_read ";
+get_mm_exe_file
+ -> " up_read ";
+vfs_getattr
+ -> " fuse_getattr ";
+vfs_getattr
+ -> " security_inode_getattr ";
+vfs_getattr
+ -> " ext4_getattr ";
+enqueue_task_fair
+ -> " enqueue_entity ";
+enqueue_task_fair
+ -> " hrtick_update ";
+enqueue_task_fair
+ -> " update_cfs_load ";
+enqueue_task_fair
+ -> " update_cfs_shares ";
+xfer_secondary_pool
+ -> " xfer_secondary_pool.part.5 ";
+flush_ptrace_hw_breakpoint
+ -> " unregister_hw_breakpoint ";
+removed_exe_file_vma
+ -> " fput ";
+d_lookup
+ -> " __d_lookup ";
+start_thread
+ -> " free_thread_xstate ";
+sys_close
+ -> " _raw_spin_lock ";
+sys_close
+ -> " filp_close ";
+cp_new_stat64
+ -> " copy_to_user ";
+"submit_async.isra.72\n" -> " _raw_spin_unlock_irqrestore ";
+"submit_async.isra.72\n" -> " usb_hcd_link_urb_to_ep ";
+"submit_async.isra.72\n" -> " _raw_spin_lock_irqsave ";
+"submit_async.isra.72\n" -> " qh_append_tds ";
+arch_get_unmapped_area_topdown
+ -> " find_vma ";
+copy_fs
+ -> " copy_fs_struct ";
+ext4_xattr_get
+ -> " ext4_xattr_ibody_get ";
+ext4_xattr_get
+ -> " down_read ";
+ext4_xattr_get
+ -> " ext4_xattr_block_get ";
+ext4_xattr_get
+ -> " up_read ";
+fd_install
+ -> " _raw_spin_lock ";
+copy_strings
+ -> " put_page ";
+copy_strings
+ -> " kunmap ";
+copy_strings
+ -> " get_arg_page ";
+copy_strings
+ -> " strnlen_user ";
+copy_strings
+ -> " _copy_from_user ";
+copy_strings
+ -> " _cond_resched ";
+copy_strings
+ -> " kmap ";
+down_read
+ -> " _cond_resched ";
+nommu_map_page
+ -> " check_addr ";
+arch_get_unmapped_exec_area
+ -> " find_vma ";
+arch_get_unmapped_exec_area
+ -> " randomize_range ";
+follow_managed
+ -> " dput ";
+follow_managed
+ -> " lookup_mnt ";
+rcu_irq_exit
+ -> " rcu_enter_nohz ";
+anon_vma_chain_free
+ -> " kmem_cache_free ";
+file_sb_list_add
+ -> " files_lglock_local_lock ";
+file_sb_list_add
+ -> " files_lglock_local_unlock ";
+do_timer
+ -> " calc_global_load ";
+do_timer
+ -> " update_wall_time ";
+perf_event_init_task
+ -> " __mutex_init ";
+clockevents_program_event
+ -> " pit_next_event ";
+clockevents_program_event
+ -> " ktime_get ";
+fuse_update_attributes
+ -> " get_jiffies_64 ";
+fuse_update_attributes
+ -> " fuse_do_getattr ";
+d_namespace_path
+ -> " our_mnt ";
+d_namespace_path
+ -> " d_absolute_path ";
+"__remove_shared_vm_struct.isra.30\n" -> " vma_prio_tree_remove ";
+arch_align_stack
+ -> " get_random_int ";
+lookup_hash
+ -> " inode_permission ";
+lookup_hash
+ -> " __lookup_hash.part.26 ";
+complete_walk
+ -> " _raw_spin_lock ";
+complete_walk
+ -> " vfsmount_lock_local_unlock ";
+complete_walk
+ -> " mntget ";
+generic_file_aio_read
+ -> " generic_segment_checks ";
+generic_file_aio_read
+ -> " do_generic_file_read.constprop.31 ";
+ext4_file_open
+ -> " dquot_file_open ";
+fpu_finit
+ -> " memset ";
+fuse_get_req
+ -> " sigprocmask ";
+fuse_get_req
+ -> " fuse_request_alloc ";
+do_truncate
+ -> " should_remove_suid ";
+do_truncate
+ -> " notify_change ";
+do_truncate
+ -> " mutex_unlock ";
+do_truncate
+ -> " mutex_lock ";
+"mem_cgroup_del_lru_list.part.41\n" -> " lookup_page_cgroup ";
+apparmor_bprm_secureexec
+ -> " cap_bprm_secureexec ";
+find_extend_vma
+ -> " find_vma ";
+usbnet_bh
+ -> " rndis_rx_fixup ";
+usbnet_bh
+ -> " skb_dequeue ";
+usbnet_bh
+ -> " usbnet_skb_return ";
+ttwu_do_wakeup
+ -> " check_preempt_curr ";
+file_sb_list_del
+ -> " files_lglock_local_lock_cpu ";
+file_sb_list_del
+ -> " files_lglock_local_unlock_cpu ";
+do_last
+ -> " unlazy_walk ";
+do_last
+ -> " dput ";
+do_last
+ -> " complete_walk ";
+do_last
+ -> " lookup_hash ";
+do_last
+ -> " mutex_lock ";
+do_last
+ -> " mnt_want_write ";
+do_last
+ -> " mnt_drop_write ";
+do_last
+ -> " nameidata_to_filp ";
+do_last
+ -> " mutex_unlock ";
+do_last
+ -> " do_lookup ";
+do_last
+ -> " may_open ";
+do_last
+ -> " follow_managed ";
+do_last
+ -> " handle_truncate ";
+do_last
+ -> " path_put ";
+ns_capable
+ -> " security_capable ";
+"ttwu_do_activate.constprop.175\n" -> " activate_task ";
+"ttwu_do_activate.constprop.175\n" -> " wq_worker_waking_up ";
+"ttwu_do_activate.constprop.175\n" -> " ttwu_do_wakeup ";
+vfs_open
+ -> " __dentry_open ";
+follow_page
+ -> " vm_normal_page ";
+follow_page
+ -> " pud_huge ";
+follow_page
+ -> " mark_page_accessed ";
+follow_page
+ -> " __kunmap_atomic ";
+follow_page
+ -> " _raw_spin_lock ";
+follow_page
+ -> " follow_huge_addr ";
+follow_page
+ -> " __kmap_atomic ";
+follow_page
+ -> " pmd_huge ";
+"wait_consider_task.part.9\n" -> " security_task_wait ";
+"wait_consider_task.part.9\n" -> " wait_task_stopped ";
+"wait_consider_task.part.9\n" -> " wait_task_continued ";
+security_path_truncate
+ -> " apparmor_path_truncate ";
+pick_next_entity
+ -> " clear_buddies ";
+pick_next_entity
+ -> " wakeup_preempt_entity.isra.92 ";
+security_file_mprotect
+ -> " apparmor_file_mprotect ";
+ext4_file_mmap
+ -> " touch_atime ";
+__mem_cgroup_uncharge_common
+ -> " lookup_page_cgroup ";
+__mem_cgroup_uncharge_common
+ -> " memcg_check_events ";
+__mem_cgroup_uncharge_common
+ -> " mem_cgroup_charge_statistics.isra.26 ";
+do_brk
+ -> " security_file_mmap ";
+do_brk
+ -> " security_vm_enough_memory ";
+do_brk
+ -> " get_unmapped_area_prot ";
+do_brk
+ -> " find_vma_prepare ";
+do_brk
+ -> " vma_link ";
+do_brk
+ -> " vma_merge ";
+do_brk
+ -> " kmem_cache_alloc ";
+generic_permission
+ -> " ns_capable ";
+generic_permission
+ -> " acl_permission_check ";
+dget
+ -> " _raw_spin_lock ";
+mem_cgroup_update_page_stat
+ -> " lookup_page_cgroup ";
+apparmor_file_permission
+ -> " common_file_perm ";
+mem_cgroup_charge_common
+ -> " lookup_page_cgroup ";
+mem_cgroup_charge_common
+ -> " __mem_cgroup_commit_charge ";
+mem_cgroup_charge_common
+ -> " __mem_cgroup_try_charge ";
+security_bprm_committing_creds
+ -> " apparmor_bprm_committing_creds ";
+do_page_fault
+ -> " up_read ";
+do_page_fault
+ -> " find_vma ";
+do_page_fault
+ -> " handle_mm_fault ";
+do_page_fault
+ -> " _cond_resched ";
+do_page_fault
+ -> " down_read_trylock ";
+qh_urb_transaction
+ -> " ehci_qtd_alloc.isra.71 ";
+qh_urb_transaction
+ -> " qtd_fill.isra.45 ";
+security_inode_follow_link
+ -> " yama_inode_follow_link ";
+security_inode_follow_link
+ -> " cap_inode_follow_link ";
+"check_lazy_exec_limit.isra.12\n" -> " _raw_spin_lock ";
+"check_lazy_exec_limit.isra.12\n" -> " get_gate_vma ";
+fuse_request_send
+ -> " _raw_spin_lock ";
+fuse_request_send
+ -> " queue_request ";
+fuse_request_send
+ -> " request_wait_answer ";
+path_openat
+ -> " path_init ";
+path_openat
+ -> " mntget ";
+path_openat
+ -> " release_open_intent ";
+path_openat
+ -> " _cond_resched ";
+path_openat
+ -> " do_last ";
+path_openat
+ -> " get_empty_filp ";
+path_openat
+ -> " path_put ";
+path_openat
+ -> " ext4_follow_link ";
+path_openat
+ -> " touch_atime ";
+path_openat
+ -> " link_path_walk ";
+path_openat
+ -> " security_inode_follow_link ";
+prepare_exec_creds
+ -> " key_put ";
+prepare_exec_creds
+ -> " prepare_creds ";
+prepare_exec_creds
+ -> " release_tgcred.isra.3 ";
+prepare_exec_creds
+ -> " kmem_cache_alloc_trace ";
+security_file_free
+ -> " apparmor_file_free_security ";
+do_lookup
+ -> " __d_lookup_rcu ";
+do_lookup
+ -> " __d_lookup ";
+do_lookup
+ -> " __follow_mount_rcu.isra.10 ";
+do_lookup
+ -> " follow_managed ";
+do_lookup
+ -> " sysfs_dentry_revalidate ";
+mprotect_fixup
+ -> " change_protection ";
+mprotect_fixup
+ -> " vma_wants_writenotify ";
+mprotect_fixup
+ -> " vma_merge ";
+mprotect_fixup
+ -> " split_vma ";
+mprotect_fixup
+ -> " vm_stat_account ";
+mprotect_fixup
+ -> " vm_get_page_prot ";
+irq_enter
+ -> " rcu_irq_enter ";
+irq_enter
+ -> " idle_cpu ";
+defer_bh
+ -> " _raw_spin_lock ";
+defer_bh
+ -> " __tasklet_schedule ";
+defer_bh
+ -> " _raw_spin_lock_irqsave ";
+defer_bh
+ -> " _raw_spin_unlock_irqrestore ";
+lru_add_drain
+ -> " drain_cpu_pagevecs ";
+rw_verify_area
+ -> " security_file_permission ";
+path_lookupat
+ -> " path_init ";
+path_lookupat
+ -> " terminate_walk ";
+path_lookupat
+ -> " complete_walk ";
+path_lookupat
+ -> " link_path_walk ";
+path_lookupat
+ -> " do_lookup ";
+kmem_cache_free
+ -> " __slab_free ";
+handle_irq
+ -> " handle_level_irq ";
+handle_irq
+ -> " irq_to_desc ";
+"do_generic_file_read.constprop.31\n" -> " find_get_page ";
+"do_generic_file_read.constprop.31\n" -> " _cond_resched ";
+"do_generic_file_read.constprop.31\n" -> " touch_atime ";
+"do_generic_file_read.constprop.31\n" -> " file_read_actor ";
+"do_generic_file_read.constprop.31\n" -> " mark_page_accessed ";
+"do_generic_file_read.constprop.31\n" -> " put_page ";
+anon_vma_prepare
+ -> " mutex_lock ";
+anon_vma_prepare
+ -> " _cond_resched ";
+anon_vma_prepare
+ -> " mutex_unlock ";
+anon_vma_prepare
+ -> " find_mergeable_anon_vma ";
+anon_vma_prepare
+ -> " _raw_spin_lock ";
+anon_vma_prepare
+ -> " kmem_cache_alloc ";
+schedule
+ -> " __schedule ";
+apparmor_capable
+ -> " cap_capable ";
+search_binary_handler
+ -> " fput ";
+search_binary_handler
+ -> " module_put ";
+search_binary_handler
+ -> " load_misc_binary ";
+search_binary_handler
+ -> " _raw_read_lock ";
+search_binary_handler
+ -> " __task_pid_nr_ns ";
+search_binary_handler
+ -> " audit_bprm ";
+search_binary_handler
+ -> " task_active_pid_ns ";
+search_binary_handler
+ -> " load_elf_binary ";
+search_binary_handler
+ -> " proc_exec_connector ";
+search_binary_handler
+ -> " load_script ";
+search_binary_handler
+ -> " security_bprm_check ";
+__pagevec_free
+ -> " free_hot_cold_page ";
+install_exec_creds
+ -> " security_bprm_committed_creds ";
+install_exec_creds
+ -> " commit_creds ";
+install_exec_creds
+ -> " security_bprm_committing_creds ";
+install_exec_creds
+ -> " mutex_unlock ";
+ehci_work
+ -> " scan_periodic ";
+ehci_work
+ -> " scan_async ";
+ehci_work
+ -> " timer_action ";
+apparmor_file_alloc_security
+ -> " kmem_cache_alloc_trace ";
+irq_exit
+ -> " do_softirq ";
+irq_exit
+ -> " idle_cpu ";
+irq_exit
+ -> " rcu_irq_exit ";
+usb_hcd_map_urb_for_dma
+ -> " nommu_map_page ";
+getname_flags
+ -> " kmem_cache_alloc ";
+getname_flags
+ -> " strncpy_from_user ";
+strlcpy
+ -> " memcpy ";
+strlcpy
+ -> " strlen ";
+dequeue_entity
+ -> " clear_buddies ";
+dequeue_entity
+ -> " update_curr ";
+dequeue_entity
+ -> " update_cfs_load ";
+dequeue_entity
+ -> " update_cfs_shares ";
+filemap_fault
+ -> " find_get_page ";
+filemap_fault
+ -> " _cond_resched ";
+security_bprm_secureexec
+ -> " apparmor_bprm_secureexec ";
+page_add_file_rmap
+ -> " __inc_zone_page_state ";
+page_add_file_rmap
+ -> " mem_cgroup_update_page_stat ";
+cap_bprm_set_creds
+ -> " get_file_caps ";
+add_wait_queue
+ -> " _raw_spin_unlock_irqrestore ";
+add_wait_queue
+ -> " _raw_spin_lock_irqsave ";
+sys_execve
+ -> " do_execve ";
+sys_execve
+ -> " putname ";
+sys_execve
+ -> " getname ";
+alloc_fd
+ -> " _raw_spin_lock ";
+alloc_fd
+ -> " expand_files ";
+"xfer_secondary_pool.part.5\n" -> " extract_entropy ";
+"xfer_secondary_pool.part.5\n" -> " credit_entropy_bits ";
+"xfer_secondary_pool.part.5\n" -> " mix_pool_bytes.constprop.8 ";
+account_process_tick
+ -> " account_user_time ";
+account_process_tick
+ -> " account_system_time ";
+unlink_file_vma
+ -> " __remove_shared_vm_struct.isra.30 ";
+unlink_file_vma
+ -> " mutex_unlock ";
+unlink_file_vma
+ -> " mutex_lock ";
+sys_munmap
+ -> " profile_munmap ";
+sys_munmap
+ -> " up_write ";
+sys_munmap
+ -> " down_write ";
+sys_munmap
+ -> " do_munmap ";
+current_fs_time
+ -> " current_kernel_time ";
+__wake_up_common
+ -> " default_wake_function ";
+account
+ -> " _raw_spin_unlock_irqrestore ";
+account
+ -> " _raw_spin_lock_irqsave ";
+account
+ -> " __wake_up ";
+account
+ -> " kill_fasync ";
+reweight_entity
+ -> " update_curr ";
+flush_tlb_page
+ -> " native_flush_tlb_single ";
+ktime_get_ts
+ -> " set_normalized_timespec ";
+ktime_get_ts
+ -> " acpi_pm_read ";
+getnstimeofday
+ -> " acpi_pm_read ";
+padzero
+ -> " clear_user ";
+sys_fstat64
+ -> " cp_new_stat64 ";
+sys_fstat64
+ -> " vfs_fstat ";
+sched_exec
+ -> " _raw_spin_unlock_irqrestore ";
+sched_exec
+ -> " _raw_spin_lock_irqsave ";
+sched_exec
+ -> " select_task_rq_fair ";
+ext4_xattr_security_get
+ -> " strcmp ";
+ext4_xattr_security_get
+ -> " ext4_xattr_get ";
+invalidate_inode_pages2_range
+ -> " pagevec_lookup ";
+place_entity
+ -> " sched_slice.isra.89 ";
+enable_8259A_irq
+ -> " unmask_8259A_irq ";
+__free_pages
+ -> " free_hot_cold_page ";
+enqueue_to_backlog
+ -> " _raw_spin_lock ";
+terminate_walk
+ -> " vfsmount_lock_local_unlock ";
+mnt_want_write
+ -> " __mnt_is_readonly ";
+fuse_flush
+ -> " is_bad_inode ";
+filp_close
+ -> " fput ";
+filp_close
+ -> " fuse_flush ";
+filp_close
+ -> " locks_remove_posix ";
+filp_close
+ -> " dnotify_flush ";
+mem_cgroup_uncharge_page
+ -> " __mem_cgroup_uncharge_common ";
+do_device_not_available
+ -> " math_state_restore ";
+load_elf_binary
+ -> " flush_old_exec ";
+load_elf_binary
+ -> " fput ";
+load_elf_binary
+ -> " arch_randomize_brk ";
+load_elf_binary
+ -> " install_exec_creds ";
+load_elf_binary
+ -> " would_dump ";
+load_elf_binary
+ -> " set_binfmt ";
+load_elf_binary
+ -> " open_exec ";
+load_elf_binary
+ -> " setup_arg_pages ";
+load_elf_binary
+ -> " elf_map ";
+load_elf_binary
+ -> " kmem_cache_alloc_trace ";
+load_elf_binary
+ -> " kernel_read ";
+load_elf_binary
+ -> " create_elf_tables ";
+load_elf_binary
+ -> " kfree ";
+load_elf_binary
+ -> " start_thread ";
+load_elf_binary
+ -> " arch_setup_additional_pages ";
+load_elf_binary
+ -> " __kmalloc ";
+load_elf_binary
+ -> " load_elf_interp ";
+load_elf_binary
+ -> " setup_new_exec ";
+load_elf_binary
+ -> " get_random_int ";
+load_elf_binary
+ -> " set_brk ";
+load_elf_binary
+ -> " padzero ";
+tlb_finish_mmu
+ -> " tlb_flush_mmu ";
+kmem_cache_alloc_trace
+ -> " _cond_resched ";
+kmem_cache_alloc_trace
+ -> " memset ";
+sys_stat64
+ -> " cp_new_stat64 ";
+sys_stat64
+ -> " vfs_stat ";
+usbnet_skb_return
+ -> " eth_type_trans ";
+usbnet_skb_return
+ -> " netif_rx ";
+nameidata_to_filp
+ -> " vfs_open ";
+anon_vma_clone
+ -> " kmem_cache_alloc ";
+anon_vma_clone
+ -> " mutex_unlock ";
+anon_vma_clone
+ -> " mutex_lock ";
+tasklet_action
+ -> " usbnet_bh ";
+unshare_files
+ -> " unshare_fd ";
+vfs_fstat
+ -> " fget_raw_light ";
+vfs_fstat
+ -> " vfs_getattr ";
+do_softirq
+ -> " __do_softirq ";
+account_user_time
+ -> " cpuacct_update_stats ";
+account_user_time
+ -> " acct_update_integrals ";
+__put_cred
+ -> " call_rcu_sched ";
+sys_clone
+ -> " do_fork ";
+d_absolute_path
+ -> " vfsmount_lock_local_lock ";
+d_absolute_path
+ -> " prepend ";
+d_absolute_path
+ -> " _raw_spin_lock ";
+d_absolute_path
+ -> " vfsmount_lock_local_unlock ";
+d_absolute_path
+ -> " prepend_path ";
+rcu_process_callbacks
+ -> " __rcu_process_callbacks ";
+finish_wait
+ -> " _raw_spin_unlock_irqrestore ";
+finish_wait
+ -> " _raw_spin_lock_irqsave ";
+rx_complete
+ -> " defer_bh ";
+rx_complete
+ -> " skb_put ";
+rx_complete
+ -> " rx_submit ";
+prepare_bprm_creds
+ -> " mutex_lock_interruptible ";
+prepare_bprm_creds
+ -> " prepare_exec_creds ";
+get_random_bytes
+ -> " extract_entropy ";
+flush_itimer_signals
+ -> " _raw_spin_unlock_irqrestore ";
+flush_itimer_signals
+ -> " _raw_spin_lock_irqsave ";
+flush_itimer_signals
+ -> " __flush_itimer_signals ";
+fuse_perm_getattr
+ -> " fuse_do_getattr ";
+anon_vma_fork
+ -> " mutex_lock ";
+anon_vma_fork
+ -> " kmem_cache_alloc ";
+anon_vma_fork
+ -> " mutex_unlock ";
+anon_vma_fork
+ -> " anon_vma_clone ";
+copy_to_user
+ -> " __copy_to_user_ll ";
+copy_to_user
+ -> " _cond_resched ";
+wait_consider_task
+ -> " wait_consider_task.part.9 ";
+drain_cpu_pagevecs
+ -> " ____pagevec_lru_add ";
+arch_setup_additional_pages
+ -> " up_write ";
+arch_setup_additional_pages
+ -> " down_write ";
+arch_setup_additional_pages
+ -> " get_unmapped_area_prot ";
+arch_setup_additional_pages
+ -> " install_special_mapping ";
+sys_set_thread_area
+ -> " do_set_thread_area ";
+pid_vnr
+ -> " pid_nr_ns ";
+init_new_context
+ -> " __mutex_init ";
+init_new_context
+ -> " mutex_unlock ";
+init_new_context
+ -> " mutex_lock ";
+___pte_free_tlb
+ -> " __tlb_remove_page ";
+___pte_free_tlb
+ -> " dec_zone_page_state ";
+mem_cgroup_del_lru_list
+ -> " mem_cgroup_del_lru_list.part.41 ";
+rcu_report_qs_rnp
+ -> " rcu_report_qs_rsp ";
+kzfree
+ -> " kfree ";
+kzfree
+ -> " memset ";
+kzfree
+ -> " ksize ";
+usb_hcd_giveback_urb
+ -> " unmap_urb_for_dma ";
+usb_hcd_giveback_urb
+ -> " usb_free_urb ";
+usb_hcd_giveback_urb
+ -> " rx_complete ";
+usb_hcd_giveback_urb
+ -> " usb_unanchor_urb ";
+__cond_resched
+ -> " __schedule ";
+____pagevec_lru_add_fn
+ -> " mem_cgroup_add_lru_list ";
+____pagevec_lru_add_fn
+ -> " update_page_reclaim_stat ";
+____pagevec_lru_add_fn
+ -> " __mod_zone_page_state ";
+error_code
+ -> " do_page_fault ";
+error_code
+ -> " do_device_not_available ";
+error_code
+ -> " do_iret_error ";
+error_code
+ -> " do_general_protection ";
+usb_hcd_irq
+ -> " ehci_irq ";
+usb_hcd_irq
+ -> " uhci_irq ";
+lookup_mnt
+ -> " vfsmount_lock_local_lock ";
+lookup_mnt
+ -> " vfsmount_lock_local_unlock ";
+lookup_mnt
+ -> " __lookup_mnt ";
+lookup_mnt
+ -> " mntget ";
+do_general_protection
+ -> " fixup_exception ";
+radix_tree_node_rcu_free
+ -> " kmem_cache_free ";
+cond_unmask_irq
+ -> " enable_8259A_irq ";
+page_remove_rmap
+ -> " mem_cgroup_uncharge_page ";
+page_remove_rmap
+ -> " __dec_zone_page_state ";
+page_remove_rmap
+ -> " mem_cgroup_update_page_stat ";
+page_remove_rmap
+ -> " PageHuge ";
+dequeue_task_fair
+ -> " dequeue_entity ";
+dequeue_task_fair
+ -> " hrtick_update ";
+dequeue_task_fair
+ -> " set_next_buddy ";
+dequeue_task_fair
+ -> " update_cfs_load ";
+dequeue_task_fair
+ -> " update_cfs_shares ";
+request_wait_answer
+ -> " wait_answer_interruptible ";
+common_mmap
+ -> " common_file_perm ";
+bprm_mm_init
+ -> " init_new_context ";
+bprm_mm_init
+ -> " mm_alloc ";
+bprm_mm_init
+ -> " __bprm_mm_init ";
+kmap
+ -> " _cond_resched ";
+kmap
+ -> " kmap_high ";
+fuse_dentry_revalidate
+ -> " fuse_change_attributes ";
+fuse_dentry_revalidate
+ -> " dget_parent ";
+fuse_dentry_revalidate
+ -> " dput ";
+fuse_dentry_revalidate
+ -> " fuse_request_send ";
+fuse_dentry_revalidate
+ -> " fuse_alloc_forget ";
+fuse_dentry_revalidate
+ -> " fuse_get_req ";
+fuse_dentry_revalidate
+ -> " fuse_get_attr_version ";
+fuse_dentry_revalidate
+ -> " kfree ";
+fuse_dentry_revalidate
+ -> " fuse_change_entry_timeout ";
+fuse_dentry_revalidate
+ -> " fuse_put_request ";
+fuse_dentry_revalidate
+ -> " _raw_spin_lock ";
+fuse_dentry_revalidate
+ -> " get_jiffies_64 ";
+fuse_dentry_revalidate
+ -> " entry_attr_timeout ";
+fuse_dentry_revalidate
+ -> " is_bad_inode ";
+kernel_read
+ -> " vfs_read ";
+unmap_urb_for_dma
+ -> " usb_hcd_unmap_urb_for_dma ";
+do_fork
+ -> " pid_vnr ";
+do_fork
+ -> " copy_process ";
+do_fork
+ -> " get_task_pid ";
+do_fork
+ -> " wake_up_new_task ";
+do_fork
+ -> " put_pid ";
+do_fork
+ -> " audit_finish_fork ";
+do_mmap
+ -> " do_mmap_pgoff ";
+____pagevec_lru_add
+ -> " pagevec_lru_move_fn ";
+kmem_cache_alloc
+ -> " __slab_alloc.constprop.68 ";
+kmem_cache_alloc
+ -> " _cond_resched ";
+kmem_cache_alloc
+ -> " memset ";
+ehci_irq
+ -> " ehci_work ";
+ehci_irq
+ -> " _raw_spin_lock_irqsave ";
+ehci_irq
+ -> " _raw_spin_unlock_irqrestore ";
+clear_user
+ -> " _cond_resched ";
+mm_alloc
+ -> " kmem_cache_alloc ";
+mm_alloc
+ -> " mm_init ";
+fput
+ -> " __fput ";
+credit_entropy_bits
+ -> " credit_entropy_bits.part.3 ";
+__fput
+ -> " module_put ";
+__fput
+ -> " dput ";
+__fput
+ -> " fsnotify ";
+__fput
+ -> " call_rcu_sched ";
+__fput
+ -> " __fsnotify_parent ";
+__fput
+ -> " drop_file_write_access ";
+__fput
+ -> " _cond_resched ";
+__fput
+ -> " ext4_release_file ";
+__fput
+ -> " file_sb_list_del ";
+__fput
+ -> " locks_remove_flock ";
+__fput
+ -> " security_file_free ";
+__fput
+ -> " put_pid ";
+__fput
+ -> " mntput ";
+check_unsafe_exec
+ -> " _raw_spin_lock ";
+get_user_pages
+ -> " __get_user_pages ";
+install_special_mapping
+ -> " security_file_mmap ";
+install_special_mapping
+ -> " kmem_cache_alloc ";
+install_special_mapping
+ -> " insert_vm_struct ";
+truncate_inode_page
+ -> " delete_from_page_cache ";
+truncate_inode_page
+ -> " cancel_dirty_page ";
+default_wake_function
+ -> " try_to_wake_up ";
+__dentry_open
+ -> " file_sb_list_add ";
+__dentry_open
+ -> " mnt_want_write ";
+__dentry_open
+ -> " ext4_file_open ";
+__dentry_open
+ -> " security_dentry_open ";
+__dentry_open
+ -> " file_ra_state_init ";
+__dentry_open
+ -> " path_get ";
+__dentry_open
+ -> " fuse_open ";
+__set_task_blocked
+ -> " recalc_sigpending ";
+wait_answer_interruptible
+ -> " _raw_spin_lock ";
+wait_answer_interruptible
+ -> " prepare_to_wait ";
+wait_answer_interruptible
+ -> " finish_wait ";
+wait_answer_interruptible
+ -> " schedule ";
+usb_hcd_link_urb_to_ep
+ -> " _raw_spin_lock ";
+qh_completions
+ -> " ehci_urb_done ";
+qh_completions
+ -> " dma_pool_free ";
+qh_completions
+ -> " qtd_copy_status.isra.43 ";
+__mem_cgroup_commit_charge
+ -> " memcg_check_events ";
+__mem_cgroup_commit_charge
+ -> " mem_cgroup_charge_statistics.isra.26 ";
+kunmap_high
+ -> " _raw_spin_lock ";
+kunmap_high
+ -> " page_address ";
+alloc_pid
+ -> " alloc_pidmap ";
+alloc_pid
+ -> " kmem_cache_alloc ";
+alloc_pid
+ -> " _raw_spin_lock_irq ";
+invalidate_inode_pages2
+ -> " invalidate_inode_pages2_range ";
+__split_vma
+ -> " arch_remove_exec_range ";
+__split_vma
+ -> " kmem_cache_alloc ";
+__split_vma
+ -> " added_exe_file_vma ";
+__split_vma
+ -> " vma_adjust ";
+__split_vma
+ -> " anon_vma_clone ";
+find_attach
+ -> " _raw_read_lock ";
+find_attach
+ -> " __attach_match ";
+__mmdrop
+ -> " pgd_free ";
+__mmdrop
+ -> " kmem_cache_free ";
+__mmdrop
+ -> " destroy_context ";
+unmap_page_range
+ -> " mem_cgroup_uncharge_start ";
+unmap_page_range
+ -> " _cond_resched ";
+unmap_page_range
+ -> " zap_pte_range ";
+unmap_page_range
+ -> " mem_cgroup_uncharge_end ";
+security_inode_permission
+ -> " cap_inode_permission ";
+page_add_new_anon_rmap
+ -> " __inc_zone_page_state ";
+page_add_new_anon_rmap
+ -> " __page_set_anon_rmap ";
+page_add_new_anon_rmap
+ -> " page_evictable ";
+page_add_new_anon_rmap
+ -> " lru_cache_add_lru ";
+zap_pte_range
+ -> " sync_mm_rss ";
+zap_pte_range
+ -> " __tlb_remove_page ";
+zap_pte_range
+ -> " vm_normal_page ";
+zap_pte_range
+ -> " mark_page_accessed ";
+zap_pte_range
+ -> " __kunmap_atomic ";
+zap_pte_range
+ -> " _raw_spin_lock ";
+zap_pte_range
+ -> " __kmap_atomic ";
+zap_pte_range
+ -> " page_remove_rmap ";
+sys_wait4
+ -> " do_wait ";
+insert_vm_struct
+ -> " security_vm_enough_memory_mm ";
+insert_vm_struct
+ -> " find_vma_prepare ";
+insert_vm_struct
+ -> " vma_link ";
+handle_truncate
+ -> " security_path_truncate ";
+handle_truncate
+ -> " do_truncate ";
+path_get
+ -> " _raw_spin_lock ";
+path_get
+ -> " mntget ";
+__delete_from_page_cache
+ -> " __dec_zone_page_state ";
+sched_clock_tick
+ -> " ktime_get ";
+sys_dup3
+ -> " _raw_spin_lock ";
+sys_dup3
+ -> " filp_close ";
+sys_dup3
+ -> " expand_files ";
+fuse_request_init
+ -> " __init_waitqueue_head ";
+strrchr
+ -> " strlen ";
+truncate_pagecache
+ -> " unmap_mapping_range ";
+truncate_pagecache
+ -> " truncate_inode_pages ";
+dma_pool_alloc
+ -> " _raw_spin_unlock_irqrestore ";
+dma_pool_alloc
+ -> " _raw_spin_lock_irqsave ";
+rcu_check_callbacks
+ -> " idle_cpu ";
+rcu_check_callbacks
+ -> " __rcu_pending ";
+rcu_check_callbacks
+ -> " raise_softirq ";
+pick_next_task_fair
+ -> " hrtick_start_fair ";
+pick_next_task_fair
+ -> " pick_next_entity ";
+pick_next_task_fair
+ -> " set_next_entity ";
+setup_new_exec
+ -> " set_task_comm ";
+setup_new_exec
+ -> " would_dump ";
+setup_new_exec
+ -> " flush_old_files ";
+setup_new_exec
+ -> " arch_pick_mmap_layout ";
+setup_new_exec
+ -> " set_dumpable ";
+setup_new_exec
+ -> " flush_signal_handlers ";
+security_inode_getattr
+ -> " apparmor_inode_getattr ";
+exit_mmap
+ -> " remove_vma ";
+exit_mmap
+ -> " free_pgtables ";
+exit_mmap
+ -> " tlb_finish_mmu ";
+exit_mmap
+ -> " tlb_gather_mmu ";
+exit_mmap
+ -> " lru_add_drain ";
+exit_mmap
+ -> " unmap_vmas ";
+exit_mmap
+ -> " arch_flush_exec_range ";
+security_inode_setattr
+ -> " evm_inode_setattr ";
+security_inode_setattr
+ -> " cap_inode_setattr ";
+get_page_from_freelist
+ -> " prep_new_page ";
+get_page_from_freelist
+ -> " rmqueue_bulk.constprop.68 ";
+get_page_from_freelist
+ -> " next_zones_zonelist ";
+get_page_from_freelist
+ -> " zone_watermark_ok ";
+get_page_from_freelist
+ -> " _raw_spin_lock_irqsave ";
+get_page_from_freelist
+ -> " __rmqueue ";
+get_page_from_freelist
+ -> " __mod_zone_page_state ";
+fsnotify
+ -> " __srcu_read_lock ";
+fsnotify
+ -> " __srcu_read_unlock ";
+"__lookup_hash.part.26\n" -> " fuse_dentry_revalidate ";
+"__lookup_hash.part.26\n" -> " d_lookup ";
+__pte_alloc
+ -> " _raw_spin_lock ";
+__pte_alloc
+ -> " pte_alloc_one ";
+"copy_process.part.23\n" -> " alloc_pid ";
+"copy_process.part.23\n" -> " copy_signal ";
+"copy_process.part.23\n" -> " dup_task_struct ";
+"copy_process.part.23\n" -> " user_disable_single_step ";
+"copy_process.part.23\n" -> " copy_creds ";
+"copy_process.part.23\n" -> " cgroup_fork ";
+"copy_process.part.23\n" -> " dup_fd ";
+"copy_process.part.23\n" -> " cgroup_post_fork ";
+"copy_process.part.23\n" -> " __delayacct_tsk_init ";
+"copy_process.part.23\n" -> " copy_namespaces ";
+"copy_process.part.23\n" -> " kmem_cache_alloc ";
+"copy_process.part.23\n" -> " monotonic_to_bootbased ";
+"copy_process.part.23\n" -> " recalc_sigpending ";
+"copy_process.part.23\n" -> " copy_thread ";
+"copy_process.part.23\n" -> " dup_mm ";
+"copy_process.part.23\n" -> " clear_all_latency_tracing ";
+"copy_process.part.23\n" -> " proc_fork_connector ";
+"copy_process.part.23\n" -> " acct_clear_integrals ";
+"copy_process.part.23\n" -> " ktime_get_ts ";
+"copy_process.part.23\n" -> " _raw_write_lock_irq ";
+"copy_process.part.23\n" -> " audit_alloc ";
+"copy_process.part.23\n" -> " get_seccomp_filter ";
+"copy_process.part.23\n" -> " sched_fork ";
+"copy_process.part.23\n" -> " copy_io ";
+"copy_process.part.23\n" -> " copy_fs ";
+"copy_process.part.23\n" -> " security_task_create ";
+"copy_process.part.23\n" -> " _raw_spin_lock ";
+"copy_process.part.23\n" -> " attach_pid ";
+"copy_process.part.23\n" -> " copy_semundo ";
+memzero_explicit
+ -> " memset ";
+unmap_mapping_range
+ -> " mutex_unlock ";
+unmap_mapping_range
+ -> " mutex_lock ";
+free_pgd_range
+ -> " ___pte_free_tlb ";
+kunmap
+ -> " kunmap_high ";
+mmap_rnd
+ -> " get_random_int ";
+prepend_path
+ -> " _raw_spin_lock ";
+prepend_path
+ -> " prepend ";
+security_vm_enough_memory
+ -> " cap_vm_enough_memory ";
+user_path_at_empty
+ -> " do_path_lookup ";
+user_path_at_empty
+ -> " putname ";
+user_path_at_empty
+ -> " getname_flags ";
+exec_mmap
+ -> " sync_mm_rss ";
+exec_mmap
+ -> " mm_release ";
+exec_mmap
+ -> " arch_pick_mmap_layout ";
+exec_mmap
+ -> " mm_update_next_owner ";
+exec_mmap
+ -> " down_read ";
+exec_mmap
+ -> " up_read ";
+exec_mmap
+ -> " _raw_spin_lock ";
+exec_mmap
+ -> " mmput ";
+__get_free_pages
+ -> " __alloc_pages_nodemask ";
+__get_free_pages
+ -> " page_address ";
+insert_work
+ -> " wake_up_worker ";
+_copy_from_user
+ -> " _cond_resched ";
+_copy_from_user
+ -> " __copy_from_user_ll ";
+"mmput.part.21\n" -> " exit_aio ";
+"mmput.part.21\n" -> " module_put ";
+"mmput.part.21\n" -> " set_mm_exe_file ";
+"mmput.part.21\n" -> " exit_mmap ";
+"mmput.part.21\n" -> " __mmdrop ";
+arch_dup_task_struct
+ -> " memcpy ";
+arch_dup_task_struct
+ -> " kmem_cache_alloc ";
+cap_vm_enough_memory
+ -> " cap_capable ";
+cap_vm_enough_memory
+ -> " __vm_enough_memory ";
+update_page_reclaim_stat
+ -> " mem_cgroup_get_reclaim_stat_from_page ";
+unlink_anon_vmas
+ -> " anon_vma_chain_free ";
+unlink_anon_vmas
+ -> " __put_anon_vma ";
+unlink_anon_vmas
+ -> " mutex_unlock ";
+unlink_anon_vmas
+ -> " mutex_lock ";
+ext4_getattr
+ -> " generic_fillattr ";
+mntput
+ -> " mntput_no_expire ";
+ktime_get_real
+ -> " getnstimeofday ";
+put_prev_task_fair
+ -> " put_prev_entity ";
+wake_up_new_task
+ -> " set_task_cpu ";
+wake_up_new_task
+ -> " select_task_rq_fair ";
+wake_up_new_task
+ -> " activate_task ";
+wake_up_new_task
+ -> " _raw_spin_lock_irqsave ";
+wake_up_new_task
+ -> " _raw_spin_unlock_irqrestore ";
+wake_up_new_task
+ -> " _raw_spin_lock ";
+wake_up_new_task
+ -> " check_preempt_curr ";
+release_pages
+ -> " __mod_zone_page_state ";
+release_pages
+ -> " _raw_spin_lock_irqsave ";
+release_pages
+ -> " __pagevec_free ";
+release_pages
+ -> " mem_cgroup_del_lru_list ";
+release_pages
+ -> " _raw_spin_unlock_irqrestore ";
+rcu_check_quiescent_state
+ -> " check_for_new_grace_period.isra.26 ";
+rcu_check_quiescent_state
+ -> " rcu_report_qs_rnp ";
+rcu_check_quiescent_state
+ -> " _raw_spin_lock_irqsave ";
+put_prev_entity
+ -> " __enqueue_entity ";
+put_prev_entity
+ -> " update_curr ";
+hrtimer_interrupt
+ -> " _raw_spin_lock ";
+hrtimer_interrupt
+ -> " ktime_get_update_offsets ";
+hrtimer_interrupt
+ -> " __run_hrtimer ";
+hrtimer_interrupt
+ -> " tick_program_event ";
+copy_page_range
+ -> " copy_pte_range ";
+sys_access
+ -> " sys_faccessat ";
+timekeeping_update
+ -> " update_rt_offset ";
+sys_dup2
+ -> " sys_dup3 ";
+dup_fd
+ -> " _raw_spin_lock ";
+dup_fd
+ -> " memcpy ";
+dup_fd
+ -> " kmem_cache_alloc ";
+dup_fd
+ -> " memset ";
+sysfs_dentry_revalidate
+ -> " strcmp ";
+sysfs_dentry_revalidate
+ -> " mutex_unlock ";
+sysfs_dentry_revalidate
+ -> " mutex_lock ";
+fuse_permission
+ -> " fuse_allow_task ";
+fuse_permission
+ -> " get_jiffies_64 ";
+fuse_permission
+ -> " fuse_perm_getattr ";
+fuse_permission
+ -> " generic_permission ";
+prepare_creds
+ -> " kmem_cache_alloc ";
+prepare_creds
+ -> " security_prepare_creds ";
+ttwu_queue
+ -> " _raw_spin_lock ";
+ttwu_queue
+ -> " ttwu_do_activate.constprop.175 ";
+"get_unmapped_area_prot.part.21\n" -> " arch_get_unmapped_area_topdown ";
+"get_unmapped_area_prot.part.21\n" -> " arch_get_unmapped_exec_area ";
+security_file_permission
+ -> " fsnotify ";
+security_file_permission
+ -> " __fsnotify_parent ";
+security_file_permission
+ -> " apparmor_file_permission ";
+do_filp_open
+ -> " path_openat ";
+extract_entropy
+ -> " memcpy ";
+extract_entropy
+ -> " account ";
+extract_entropy
+ -> " xfer_secondary_pool ";
+extract_entropy
+ -> " extract_buf ";
+change_protection
+ -> " flush_tlb_mm ";
+change_protection
+ -> " change_pte_range ";
+unlock_page
+ -> " __wake_up_bit ";
+fuse_change_attributes
+ -> " _raw_spin_lock ";
+fuse_change_attributes
+ -> " fuse_change_attributes_common ";
+__tlb_remove_page
+ -> " free_page_and_swap_cache ";
+__rcu_process_callbacks
+ -> " rcu_check_quiescent_state ";
+__rcu_process_callbacks
+ -> " rcu_process_gp_end.isra.24 ";
+__rcu_process_callbacks
+ -> " force_quiescent_state ";
+__rcu_process_callbacks
+ -> " rcu_do_batch.isra.32 ";
+__copy_from_user_ll
+ -> " __copy_from_user_ll.part.1 ";
+__copy_from_user_ll
+ -> " __copy_user_zeroing_intel ";
+inode_change_ok
+ -> " inode_newsize_ok ";
+__wake_up
+ -> " __wake_up_common ";
+__wake_up
+ -> " _raw_spin_unlock_irqrestore ";
+__wake_up
+ -> " _raw_spin_lock_irqsave ";
+prepare_binprm
+ -> " security_bprm_set_creds ";
+prepare_binprm
+ -> " kernel_read ";
+prepare_binprm
+ -> " bprm_fill_uid ";
+do_sync_read
+ -> " generic_file_aio_read ";
+scan_periodic
+ -> " free_cached_lists ";
+blocking_notifier_call_chain
+ -> " __blocking_notifier_call_chain ";
+arch_pick_mmap_layout
+ -> " mmap_rnd ";
+elf_map
+ -> " up_write ";
+elf_map
+ -> " down_write ";
+elf_map
+ -> " do_munmap ";
+do_wp_page
+ -> " reuse_swap_page ";
+do_wp_page
+ -> " ptep_set_access_flags ";
+do_wp_page
+ -> " vm_normal_page ";
+do_wp_page
+ -> " unlock_page ";
+do_wp_page
+ -> " page_move_anon_rmap ";
+do_wp_page
+ -> " page_add_new_anon_rmap ";
+do_wp_page
+ -> " add_mm_counter_fast ";
+do_wp_page
+ -> " __alloc_pages_nodemask ";
+do_wp_page
+ -> " anon_vma_prepare ";
+do_wp_page
+ -> " mem_cgroup_newpage_charge ";
+do_wp_page
+ -> " ptep_clear_flush ";
+do_wp_page
+ -> " __kunmap_atomic ";
+do_wp_page
+ -> " _raw_spin_lock ";
+do_wp_page
+ -> " put_page ";
+do_wp_page
+ -> " __kmap_atomic ";
+do_wp_page
+ -> " page_remove_rmap ";
+__vma_link_file
+ -> " vma_prio_tree_insert ";
+try_to_wake_up
+ -> " task_waking_fair ";
+try_to_wake_up
+ -> " select_task_rq_fair ";
+try_to_wake_up
+ -> " ttwu_queue ";
+try_to_wake_up
+ -> " _raw_spin_unlock_irqrestore ";
+try_to_wake_up
+ -> " _raw_spin_lock_irqsave ";
+try_to_wake_up
+ -> " ttwu_stat ";
+sysfs_permission
+ -> " sysfs_refresh_inode ";
+sysfs_permission
+ -> " generic_permission ";
+sysfs_permission
+ -> " mutex_unlock ";
+sysfs_permission
+ -> " mutex_lock ";
+may_open
+ -> " inode_permission ";
+handle_irq_event_percpu
+ -> " irq_handler ";
+handle_irq_event_percpu
+ -> " add_interrupt_randomness ";
+handle_irq_event_percpu
+ -> " usb_hcd_irq ";
+handle_irq_event_percpu
+ -> " note_interrupt ";
+handle_irq_event_percpu
+ -> " snd_intel8x0_interrupt ";
+handle_irq_event_percpu
+ -> " timer_interrupt ";
+handle_irq_event_percpu
+ -> " yenta_interrupt ";
+set_task_comm
+ -> " _raw_spin_lock ";
+radix_tree_delete
+ -> " call_rcu_sched ";
+rcu_start_gp
+ -> " _raw_spin_unlock_irqrestore ";
+rcu_start_gp
+ -> " rcu_start_gp_per_cpu.isra.6 ";
+mem_cgroup_count_vm_event
+ -> " mem_cgroup_pgfault ";
+update_cfs_shares
+ -> " reweight_entity ";
+user_path_at
+ -> " user_path_at_empty ";
+do_anonymous_page
+ -> " expand_downwards ";
+do_anonymous_page
+ -> " page_add_new_anon_rmap ";
+do_anonymous_page
+ -> " add_mm_counter_fast ";
+do_anonymous_page
+ -> " __alloc_pages_nodemask ";
+do_anonymous_page
+ -> " anon_vma_prepare ";
+do_anonymous_page
+ -> " mem_cgroup_newpage_charge ";
+do_anonymous_page
+ -> " __kunmap_atomic ";
+do_anonymous_page
+ -> " _raw_spin_lock ";
+do_anonymous_page
+ -> " __kmap_atomic ";
+path_put
+ -> " dput ";
+path_put
+ -> " mntput ";
+__kmalloc
+ -> " _cond_resched ";
+free_pages
+ -> " __virt_addr_valid ";
+free_pages
+ -> " __free_pages ";
+run_local_timers
+ -> " hrtimer_run_queues ";
+run_local_timers
+ -> " raise_softirq ";
+drop_file_write_access
+ -> " mnt_drop_write ";
+pagevec_lookup
+ -> " find_get_pages ";
+change_pte_range
+ -> " _raw_spin_lock ";
+change_pte_range
+ -> " __kmap_atomic ";
+change_pte_range
+ -> " __kunmap_atomic ";
+work_notifysig
+ -> " do_notify_resume ";
+sched_fork
+ -> " _raw_spin_unlock_irqrestore ";
+sched_fork
+ -> " set_task_cpu ";
+sched_fork
+ -> " _raw_spin_lock_irqsave ";
+sched_fork
+ -> " task_fork_fair ";
+file_free_rcu
+ -> " kmem_cache_free ";
+inode_permission
+ -> " fuse_permission ";
+inode_permission
+ -> " sysfs_permission ";
+inode_permission
+ -> " security_inode_permission ";
+inode_permission
+ -> " generic_permission ";
+mem_cgroup_add_lru_list
+ -> " mem_cgroup_add_lru_list.part.42 ";
+do_munmap
+ -> " find_vma ";
+do_munmap
+ -> " __split_vma ";
+do_munmap
+ -> " remove_vma ";
+do_munmap
+ -> " detach_vmas_to_be_unmapped ";
+do_munmap
+ -> " unmap_region ";
+do_munmap
+ -> " vm_stat_account ";
+fuse_set_nowrite
+ -> " _raw_spin_lock ";
+"__follow_mount_rcu.isra.10\n" -> " __lookup_mnt ";
+__kunmap_atomic
+ -> " native_flush_tlb_single ";
+__slab_free
+ -> " put_cpu_partial ";
+kmalloc_order_trace
+ -> " __get_free_pages ";
+ehci_urb_enqueue
+ -> " qh_urb_transaction ";
+ehci_urb_enqueue
+ -> " submit_async.isra.72 ";
+task_tick_fair
+ -> " update_curr ";
+task_tick_fair
+ -> " update_cfs_load ";
+task_tick_fair
+ -> " update_cfs_shares ";
+vfs_read
+ -> " fsnotify ";
+vfs_read
+ -> " do_sync_read ";
+vfs_read
+ -> " __fsnotify_parent ";
+vfs_read
+ -> " rw_verify_area ";
+__schedule
+ -> " update_rq_clock ";
+__schedule
+ -> " put_prev_task_fair ";
+__schedule
+ -> " deactivate_task ";
+__schedule
+ -> " rcu_note_context_switch ";
+__schedule
+ -> " _raw_spin_lock_irq ";
+__schedule
+ -> " finish_task_switch ";
+__schedule
+ -> " pick_next_task_fair ";
+__schedule
+ -> " sched_info_arrive ";
+deactivate_task
+ -> " dequeue_task ";
+find_mergeable_anon_vma
+ -> " reusable_anon_vma ";
+expand_downwards
+ -> " security_file_mmap ";
+expand_downwards
+ -> " khugepaged_enter_vma_merge ";
+expand_downwards
+ -> " mutex_lock ";
+expand_downwards
+ -> " mutex_unlock ";
+expand_downwards
+ -> " anon_vma_prepare ";
+expand_downwards
+ -> " acct_stack_growth ";
+"rndis_rx_fixup.part.8\n" -> " skb_pull ";
+"rndis_rx_fixup.part.8\n" -> " skb_trim ";
+tick_program_event
+ -> " clockevents_program_event ";
+fuse_request_free
+ -> " kmem_cache_free ";
+rx_submit
+ -> " __alloc_skb ";
+rx_submit
+ -> " _raw_spin_unlock_irqrestore ";
+rx_submit
+ -> " _raw_spin_lock_irqsave ";
+rx_submit
+ -> " usb_submit_urb ";
+common_interrupt
+ -> " do_IRQ ";
+vfs_fstatat
+ -> " path_put ";
+vfs_fstatat
+ -> " vfs_getattr ";
+vfs_fstatat
+ -> " user_path_at ";
+__bprm_mm_init
+ -> " security_file_mmap ";
+__bprm_mm_init
+ -> " insert_vm_struct ";
+__bprm_mm_init
+ -> " up_write ";
+__bprm_mm_init
+ -> " vm_get_page_prot ";
+__bprm_mm_init
+ -> " kmem_cache_alloc ";
+__bprm_mm_init
+ -> " down_write ";
+de_thread
+ -> " get_mm_counter ";
+de_thread
+ -> " flush_itimer_signals ";
+de_thread
+ -> " exit_itimers ";
+math_state_restore
+ -> " __math_state_restore ";
+math_state_restore
+ -> " init_fpu ";
+lru_cache_add_lru
+ -> " __lru_cache_add ";
+scan_async
+ -> " qh_completions ";
+scan_async
+ -> " timer_action ";
+"count.constprop.23\n" -> " _cond_resched ";
+setup_arg_pages
+ -> " shift_arg_pages ";
+setup_arg_pages
+ -> " up_write ";
+setup_arg_pages
+ -> " expand_stack ";
+setup_arg_pages
+ -> " arch_align_stack ";
+setup_arg_pages
+ -> " mprotect_fixup ";
+setup_arg_pages
+ -> " down_write ";
+flush_old_exec
+ -> " flush_thread ";
+flush_old_exec
+ -> " set_mm_exe_file ";
+flush_old_exec
+ -> " acct_arg_size.isra.7 ";
+flush_old_exec
+ -> " exec_mmap ";
+flush_old_exec
+ -> " de_thread ";
+"netif_rx.part.87\n" -> " get_rps_cpu ";
+"netif_rx.part.87\n" -> " ktime_get_real ";
+"netif_rx.part.87\n" -> " enqueue_to_backlog ";
+skb_dequeue
+ -> " _raw_spin_unlock_irqrestore ";
+skb_dequeue
+ -> " _raw_spin_lock_irqsave ";
+fuse_getattr
+ -> " fuse_allow_task ";
+fuse_getattr
+ -> " fuse_update_attributes ";
+get_empty_filp
+ -> " security_file_alloc ";
+get_empty_filp
+ -> " kmem_cache_alloc ";
+__copy_to_user_ll
+ -> " __copy_user_intel ";
+getname
+ -> " getname_flags ";
+do_execve_common
+ -> " sched_exec ";
+do_execve_common
+ -> " check_unsafe_exec ";
+do_execve_common
+ -> " bprm_mm_init ";
+do_execve_common
+ -> " count.constprop.23 ";
+do_execve_common
+ -> " acct_update_integrals ";
+do_execve_common
+ -> " open_exec ";
+do_execve_common
+ -> " unshare_files ";
+do_execve_common
+ -> " kmem_cache_alloc_trace ";
+do_execve_common
+ -> " copy_strings ";
+do_execve_common
+ -> " free_bprm ";
+do_execve_common
+ -> " search_binary_handler ";
+do_execve_common
+ -> " prepare_binprm ";
+do_execve_common
+ -> " prepare_bprm_creds ";
+do_execve_common
+ -> " copy_strings_kernel ";
+put_page
+ -> " __put_single_page ";
+activate_task
+ -> " enqueue_task ";
+page_address
+ -> " _raw_spin_unlock_irqrestore ";
+page_address
+ -> " _raw_spin_lock_irqsave ";
+account_kernel_stack
+ -> " mod_zone_page_state ";
+copy_signal
+ -> " __mutex_init ";
+copy_signal
+ -> " tty_audit_fork ";
+copy_signal
+ -> " sched_autogroup_fork ";
+copy_signal
+ -> " _raw_spin_lock ";
+copy_signal
+ -> " __init_waitqueue_head ";
+copy_signal
+ -> " kmem_cache_alloc ";
+copy_signal
+ -> " hrtimer_init ";
+mem_cgroup_uncharge_cache_page
+ -> " __mem_cgroup_uncharge_common ";
+fuse_do_open
+ -> " fuse_send_open.isra.17 ";
+fuse_do_open
+ -> " fuse_file_alloc ";
+do_set_thread_area
+ -> " set_tls_desc ";
+do_set_thread_area
+ -> " tls_desc_okay ";
+do_set_thread_area
+ -> " _copy_from_user ";
+do_set_thread_area
+ -> " _cond_resched ";
+mask_and_ack_8259A
+ -> " _raw_spin_unlock_irqrestore ";
+mask_and_ack_8259A
+ -> " _raw_spin_lock_irqsave ";
+sys_mmap_pgoff
+ -> " fget ";
+sys_mmap_pgoff
+ -> " fput ";
+sys_mmap_pgoff
+ -> " up_write ";
+sys_mmap_pgoff
+ -> " down_write ";
+sys_mmap_pgoff
+ -> " do_mmap_pgoff ";
+cgroup_post_fork
+ -> " freezer_fork ";
+"rcu_do_batch.isra.32\n" -> " kfree ";
+free_thread_xstate
+ -> " kmem_cache_free ";
+security_task_wait
+ -> " cap_task_wait ";
+acct_stack_growth
+ -> " security_vm_enough_memory_mm ";
+acct_stack_growth
+ -> " vm_stat_account ";
+prepare_to_wait
+ -> " _raw_spin_unlock_irqrestore ";
+prepare_to_wait
+ -> " _raw_spin_lock_irqsave ";
+usb_submit_urb
+ -> " usb_hcd_submit_urb ";
+"fuse_send_open.isra.17\n" -> " fuse_request_send ";
+"fuse_send_open.isra.17\n" -> " fuse_get_req ";
+"fuse_send_open.isra.17\n" -> " fuse_put_request ";
+link_path_walk
+ -> " inode_permission ";
+link_path_walk
+ -> " dput ";
+link_path_walk
+ -> " mntput ";
+link_path_walk
+ -> " unlazy_walk ";
+link_path_walk
+ -> " do_lookup ";
+task_fork_fair
+ -> " place_entity ";
+task_fork_fair
+ -> " _raw_spin_unlock_irqrestore ";
+task_fork_fair
+ -> " update_rq_clock ";
+task_fork_fair
+ -> " _raw_spin_lock_irqsave ";
+task_fork_fair
+ -> " update_curr ";
+__attach_match
+ -> " aa_dfa_match ";
+__attach_match
+ -> " strcmp ";
+do_fcntl
+ -> " set_close_on_exec ";
+do_fcntl
+ -> " fd_install ";
+do_fcntl
+ -> " alloc_fd ";
+unmap_region
+ -> " get_mm_counter ";
+unmap_region
+ -> " tlb_finish_mmu ";
+unmap_region
+ -> " free_pgtables ";
+unmap_region
+ -> " lru_add_drain ";
+unmap_region
+ -> " unmap_vmas ";
+unmap_region
+ -> " tlb_gather_mmu ";
+extract_buf
+ -> " _raw_spin_unlock_irqrestore ";
+extract_buf
+ -> " _raw_spin_lock_irqsave ";
+extract_buf
+ -> " __mix_pool_bytes ";
+wakeup_softirqd
+ -> " wake_up_process ";
+ptregs_execve
+ -> " sys_execve ";
+prep_new_page
+ -> " __kmap_atomic ";
+prep_new_page
+ -> " __kunmap_atomic ";
+copy_fs_struct
+ -> " _raw_spin_lock ";
+copy_fs_struct
+ -> " kmem_cache_alloc ";
+copy_fs_struct
+ -> " mnt_make_longterm ";
+copy_fs_struct
+ -> " path_get ";
+delete_from_page_cache
+ -> " mem_cgroup_uncharge_cache_page ";
+delete_from_page_cache
+ -> " put_page ";
+delete_from_page_cache
+ -> " _raw_spin_lock_irq ";
+delete_from_page_cache
+ -> " __delete_from_page_cache ";
+dget_parent
+ -> " _raw_spin_lock ";
+flush_thread
+ -> " flush_ptrace_hw_breakpoint ";
+check_preempt_curr
+ -> " check_preempt_wakeup ";
+sys_mprotect
+ -> " security_file_mprotect ";
+sys_mprotect
+ -> " up_write ";
+sys_mprotect
+ -> " mprotect_fixup ";
+sys_mprotect
+ -> " down_write ";
+sys_mprotect
+ -> " find_vma_prev ";
+apparmor_inode_getattr
+ -> " common_perm ";
+security_prepare_creds
+ -> " apparmor_cred_prepare ";
+schedule_tail
+ -> " finish_task_switch ";
+schedule_tail
+ -> " _cond_resched ";
+schedule_tail
+ -> " __task_pid_nr_ns ";
+aa_path_name
+ -> " get_name_to_buffer ";
+aa_path_name
+ -> " __kmalloc ";
+expand_stack
+ -> " expand_downwards ";
+usb_hcd_unlink_urb_from_ep
+ -> " _raw_spin_lock ";
+hrtick_update
+ -> " hrtick_start_fair ";
+acl_permission_check
+ -> " in_group_p ";
+vfs_write
+ -> " fsnotify ";
+vfs_write
+ -> " __fsnotify_parent ";
+security_vm_enough_memory_mm
+ -> " cap_vm_enough_memory ";
+do_iret_error
+ -> " check_lazy_exec_limit.isra.12 ";
+cgroup_fork
+ -> " _raw_spin_lock ";
+handle_mm_fault
+ -> " mem_cgroup_count_vm_event ";
+handle_mm_fault
+ -> " __pte_alloc ";
+handle_mm_fault
+ -> " __kmap_atomic ";
+handle_mm_fault
+ -> " handle_pte_fault ";
+apparmor_file_free_security
+ -> " kzfree ";
+dup_mmap
+ -> " copy_page_range ";
+dup_mmap
+ -> " up_write ";
+dup_mmap
+ -> " security_vm_enough_memory ";
+dup_mmap
+ -> " mutex_lock ";
+dup_mmap
+ -> " anon_vma_fork ";
+dup_mmap
+ -> " vma_prio_tree_add ";
+dup_mmap
+ -> " mutex_unlock ";
+dup_mmap
+ -> " __vma_link_rb ";
+dup_mmap
+ -> " kmem_cache_alloc ";
+dup_mmap
+ -> " down_write ";
+dup_mmap
+ -> " flush_tlb_mm ";
+__put_single_page
+ -> " __page_cache_release.part.8 ";
+__put_single_page
+ -> " free_hot_cold_page ";
+copy_pte_range
+ -> " vm_normal_page ";
+copy_pte_range
+ -> " _cond_resched ";
+copy_pte_range
+ -> " __pte_alloc ";
+copy_pte_range
+ -> " __kunmap_atomic ";
+copy_pte_range
+ -> " _raw_spin_lock ";
+copy_pte_range
+ -> " __kmap_atomic ";
+sys_faccessat
+ -> " __put_cred ";
+sys_faccessat
+ -> " prepare_creds ";
+sys_faccessat
+ -> " revert_creds ";
+sys_faccessat
+ -> " override_creds ";
+sys_faccessat
+ -> " user_path_at ";
+"__tracing_open.isra.21\n" -> " kmalloc_order_trace ";
+"__tracing_open.isra.21\n" -> " __mutex_init ";
+"__tracing_open.isra.21\n" -> " kmem_cache_alloc_trace ";
+"__tracing_open.isra.21\n" -> " mutex_lock ";
+ptep_clear_flush
+ -> " flush_tlb_page ";
+flush_old_files
+ -> " _raw_spin_lock ";
+flush_old_files
+ -> " sys_close ";
+vma_prio_tree_insert
+ -> " vma_prio_tree_add ";
+syscall_after_call
+ -> " sys_mmap_pgoff ";
+syscall_after_call
+ -> " sys_read ";
+syscall_after_call
+ -> " sys_wait4 ";
+syscall_after_call
+ -> " sys_munmap ";
+syscall_after_call
+ -> " sys_stat64 ";
+syscall_after_call
+ -> " sys_access ";
+syscall_after_call
+ -> " sys_fstat64 ";
+syscall_after_call
+ -> " sys_dup2 ";
+syscall_after_call
+ -> " sys_brk ";
+syscall_after_call
+ -> " sys_open ";
+syscall_after_call
+ -> " sys_set_thread_area ";
+syscall_after_call
+ -> " sys_close ";
+syscall_after_call
+ -> " sys_mprotect ";
+syscall_after_call
+ -> " sys_fcntl64 ";
+set_next_entity
+ -> " update_stats_wait_end ";
+handle_irq_event
+ -> " _raw_spin_lock ";
+handle_irq_event
+ -> " handle_irq_event_percpu ";
+check_preempt_wakeup
+ -> " update_curr ";
+check_preempt_wakeup
+ -> " resched_task ";
+check_preempt_wakeup
+ -> " wakeup_preempt_entity.isra.92 ";
+check_preempt_wakeup
+ -> " set_next_buddy ";
+sys_read
+ -> " fget_light ";
+sys_read
+ -> " vfs_read ";
+monotonic_to_bootbased
+ -> " set_normalized_timespec ";
+do_path_lookup
+ -> " path_lookupat ";
+call_rcu_sched
+ -> " __call_rcu ";
+__task_pid_nr_ns
+ -> " pid_nr_ns ";
+vma_link
+ -> " mutex_lock ";
+vma_link
+ -> " __vma_link_file ";
+vma_link
+ -> " __vma_link_list ";
+vma_link
+ -> " mutex_unlock ";
+vma_link
+ -> " __vma_link_rb ";
+__queue_work
+ -> " get_cwq.isra.17 ";
+__queue_work
+ -> " _raw_spin_lock_irqsave ";
+__queue_work
+ -> " insert_work ";
+__queue_work
+ -> " _raw_spin_unlock_irqrestore ";
+apparmor_cred_prepare
+ -> " aa_dup_task_context ";
+apparmor_cred_prepare
+ -> " aa_alloc_task_context ";
+call_timer_fn
+ -> " delayed_work_timer_fn ";
+ktime_get
+ -> " acpi_pm_read ";
+free_page_and_swap_cache
+ -> " put_page ";
+mutex_lock_interruptible
+ -> " _cond_resched ";
+timer_interrupt
+ -> " hrtimer_interrupt ";
+dma_pool_free
+ -> " _raw_spin_unlock_irqrestore ";
+dma_pool_free
+ -> " _raw_spin_lock_irqsave ";
+do_wait
+ -> " _raw_read_lock ";
+do_wait
+ -> " add_wait_queue ";
+do_wait
+ -> " schedule ";
+do_wait
+ -> " wait_consider_task ";
+dequeue_task
+ -> " dequeue_task_fair ";
+dequeue_task
+ -> " update_rq_clock ";
+recalc_sigpending
+ -> " recalc_sigpending_tsk ";
+}

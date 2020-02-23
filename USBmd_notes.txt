@@ -1,4 +1,4 @@
-******************************************************************************************************
+#/******************************************************************************************************
 #* NEURONRAIN USB-md - Wireless Network and USB Stream Data Analytics
 #* This program is free software: you can redistribute it and/or modify
 #* it under the terms of the GNU General Public License as published by
@@ -14,10 +14,12 @@
 #* along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #*
 #--------------------------------------------------------------------------------------------------------
+K.Srinivasan
 #NeuronRain Documentation and Licensing: http://neuronrain-documentation.readthedocs.io/en/latest/
 #Personal website(research): https://sites.google.com/site/kuja27/
 #--------------------------------------------------------------------------------------------------------
 #********************************************************************************************************/
+
 
 USBmd driver is an experimental modified version of already existing USB driver in linux.
 
@@ -487,75 +489,75 @@ implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion
  initialized with these commits
 
 --------------------------------------------------------------------------------------------------------------
-(FEATURE-DONE) USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python function - 18 June 2018
+USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python function - 18 June 2018
 --------------------------------------------------------------------------------------------------------------
 1. Spark Log Analyzer Spark_USBWWANLogMapReduceParser.py has been changed to modularize the pattern extraction
 by defining a new function accepting kern.log file, pattern and filter and also creates Spark DataFrame SQL
 table and queries it.
 2. This is similar to NeuronRain AsFer log_mapreducer()
 
--------------------------------------------------------------------------------------------------------------
-(FEATURE) USBWWAN analytics - USBmon and FTrace logs analysis - 15 November 2018
+------------------------------------------------------------------------------------------------------------
+769. (FEATURE) USBWWAN analytics - USBmon and FTrace logs analysis - 15 November 2018 - this section is an extended draft on respective topics in NeuronRain AstroInfer design -  https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
 -------------------------------------------------------------------------------------------------------------
 1. Logs Analysis for 2 standard kernel tracing facilities have been included - USBmon and FTrace. USBmon is the
-kernel debugfs tracing facility and FTrace is the Kernel functions tracing utility accessible from user space. (Kernel Address Sanitizer - KASAN - is only enabled in kernelspace via KBuild config and kernel build transparent to userspace) 
+kernel debugfs tracing facility and FTrace is the Kernel functions tracing utility accessible from user space. (Kernel Address Sanitizer - KASAN - is only enabled in kernelspace via KBuild config and kernel build transparent to userspace)
 2. USBmon traces are enabled by debugfs in /sys/kernel/debug/usb/usbmon and can be loaded in wireshark in libpcap format or usbmon pseudodevices can be viewed in tcpdump:
-  467  ls /sys/kernel/debug/
-  468  modprobe usbmon
-  472  dumpcap -D
-  474  ls /dev/usbmon0
-  475  ls -lrt /dev/usbmon*
-  487  tcpdump -i usbmon1
-  488  tcpdump -i usbmon2
-  489  tcpdump -i usbmon0
-  490  tcpdump -i usbmon3
-  491  tcpdump -i usbmon4
-  520  cat /sys/kernel/debug/usb/usbmon/1t 2>&1 > usbmon.mon
+467 ls /sys/kernel/debug/
+468 modprobe usbmon
+472 dumpcap -D
+474 ls /dev/usbmon0
+475 ls -lrt /dev/usbmon*
+487 tcpdump -i usbmon1
+488 tcpdump -i usbmon2
+489 tcpdump -i usbmon0
+490 tcpdump -i usbmon3
+491 tcpdump -i usbmon4
+520 cat /sys/kernel/debug/usb/usbmon/1t 2>&1 > usbmon.mon
 3. FTrace for function graph analysis are enabled by (Kernel.org FTrace Documentation: https://www.kernel.org/doc/Documentation/trace/ftrace.txt):
-  536  ls /sys/kernel/debug/tracing/current_tracer 
-  537  echo nop > /sys/kernel/debug/tracing/current_tracer 
-  538  echo 0 > /sys/kernel/debug/tracing/tracing_on 
-  539  echo $$ > /sys/kernel/debug/tracing/set_ftrace_pid 
-  541  echo function > /sys/kernel/debug/tracing/current_tracer 
-  545  echo 1 > /sys/kernel/debug/tracing/tracing_on 
-  557  ls -lrt /sys/kernel/debug/tracing/trace
-  561  cat /sys/kernel/debug/tracing/set_graph_function 
-  562  cat /sys/kernel/debug/tracing/trace_options 
-  563  echo funcgraph-duration > /sys/kernel/debug/tracing/trace_options 
-  566  cat /sys/kernel/debug/tracing/set_graph_function 
-  567  cat /sys/kernel/debug/tracing/trace_options 
-  568  cat /sys/kernel/debug/tracing/trace_options 
-  569  echo funcgraph-cpu 2>&1 > /sys/kernel/debug/tracing/trace_options 
-  620  cat /sys/kernel/debug/tracing/set_ftrace_pid 
-  624  echo 7379 > /sys/kernel/debug/tracing/set_ftrace_pid 
-  625  cat /sys/kernel/debug/tracing/trace 2>&1 > ftrace.log.15November2018
-  639  export JAVA_HOME=/media/Ubuntu2/jdk1.8.0_171/
-  640  export PATH=/usr/bin:$PATH
-  671  /media/Ubuntu2/spark-2.3.1-bin-hadoop2.7/bin/spark-submit Spark_USBWWANLogMapReduceParser.py 2>&1 > testlogs/Spark_USBWWANLogMapReduceParser.FTraceAndUSBMon.log.15November2018
+536 ls /sys/kernel/debug/tracing/current_tracer
+537 echo nop > /sys/kernel/debug/tracing/current_tracer
+538 echo 0 > /sys/kernel/debug/tracing/tracing_on
+539 echo $$ > /sys/kernel/debug/tracing/set_ftrace_pid
+541 echo function > /sys/kernel/debug/tracing/current_tracer
+545 echo 1 > /sys/kernel/debug/tracing/tracing_on
+557 ls -lrt /sys/kernel/debug/tracing/trace
+561 cat /sys/kernel/debug/tracing/set_graph_function
+562 cat /sys/kernel/debug/tracing/trace_options
+563 echo funcgraph-duration > /sys/kernel/debug/tracing/trace_options
+566 cat /sys/kernel/debug/tracing/set_graph_function
+567 cat /sys/kernel/debug/tracing/trace_options
+568 cat /sys/kernel/debug/tracing/trace_options
+569 echo funcgraph-cpu 2>&1 > /sys/kernel/debug/tracing/trace_options
+620 cat /sys/kernel/debug/tracing/set_ftrace_pid
+624 echo 7379 > /sys/kernel/debug/tracing/set_ftrace_pid
+625 cat /sys/kernel/debug/tracing/trace 2>&1 > ftrace.log.15November2018
+639 export JAVA_HOME=/media/Ubuntu2/jdk1.8.0_171/
+640 export PATH=/usr/bin:$PATH
+671 /media/Ubuntu2/spark-2.3.1-bin-hadoop2.7/bin/spark-submit Spark_USBWWANLogMapReduceParser.py 2>&1 > testlogs/Spark_USBWWANLogMapReduceParser.FTraceAndUSBMon.log.15November2018
 4. FTrace traces for specific userspace threads/processes are enabled by previous example commandlines and available through /sys/kernel/debug/tracing/trace (circular buffer). Function graph traces show kernel function invocations as call graph edges (denoted by fn2 <- fn1)
 5. Spark_USBWWANLogMapReduceParser.py has been changed to invoke log analyzer for USBmon and FTrace logs for
 patterns Bi(BULK IN) and usb from USBmon and FTrace logs respectively:
-	- usbmon.15November2018.mon
-	- ftrace.ping.log.15November2018 (ftraces for ping of an IP address)
+- usbmon.15November2018.mon
+- ftrace.ping.log.15November2018 (ftraces for ping of an IP address)
 6. Logs for Spark Analyzer have been committed to Spark_USBWWANLogMapReduceParser.FTraceAndUSBMon.log.15November2018 which analyze the USBmon logs and WLAN traffic for IP address ping.
 
 -----------------------------------------------------------------------------------------------------------
-(FEATURE) USBmd FTrace Kernel Function CallGraph Generation for Analysis - 22 November 2018
+770. (THEORY and FEATURE) Program Analysis and Software Analytics - USBmd FTrace Kernel Function CallGraph Generation for Analysis - 22 November 2018 - this section is an extended draft on respective topics in NeuronRain AstroInfer design -  https://github.com/shrinivaasanka/asfer-github-code/blob/master/asfer-docs/AstroInferDesign.txt
 -----------------------------------------------------------------------------------------------------------
 1.New bash shell script usb_md_ftrace.sh has been committed to repository which writes out an ftrace.log
 file containing kernel function call graph sequences for an executable code. It is invoked as:
-	$usb_md_ftrace.sh <executable-to-trace>
+        $usb_md_ftrace.sh <executable-to-trace>
 usb_md_ftrace.sh summarizes previously mentioned ftrace options enabling commands into single file with an
 option for commandline argument of an executable to trace.
 2.usb_wwan_modified/python-src/Spark_USBWWANLogMapReduceParser.py has been changed to include a new function
 ftrace_callgraph_dot() which parses an ftrace log generated by usb_md_ftrace.sh for command:
-	$usb_md_ftrace.sh traceroute <ip-address> 
+        $usb_md_ftrace.sh traceroute <ip-address>
 3.ftrace_callgraph_dot() parses each line of ftrace.log and adds them as edges in a NetworkX Directed Graph. DOT
 file for this call graph is written to Spark_USBWWANLogMapReduceParser.ftrace_callgraph.dot
 4.As a novelty, PageRank and Degree Centrality measures of the call graph NetworkX DiGraph are printed which show the prominently active regions of the kernel for traceroute . PageRank/Degree Centrality of kernel function callgraph is quite useful by treating every function caller as a voter to function callee. Theoretically, this centrality in kernel throws light on suspicious, malevolent invocations particularly involving memory and locking. In this traceroute ftrace example, lock and kmalloc functions have high centrality, and USB URB related functions are way down the ranking. More the ranking, deeper the function is in callstack trace in kernel.
-5. Lot of functions have ISRA optimization of GCC. ISRA is known to cause signed int bugs (0 was erroneously promoted to 1 in loops) and ISRA has been disabled in ARM kernel: https://patchwork.kernel.org/patch/7113091/ by -fno-ipa-sra GCC flag. This kind of instability could be the reason for 32-bit VIRGO heisenbugs in string functions in older kernels. 
-6.Previous FTrace kernel call graph analysis is not only limited to USBmd WLAN analytics but can be applied to any executable requiring kernel profiling. Usual profilers measure time spent in the function whereas this graph theoretic analysis is superior and finds kernel bottlenecks and malicious patterns by analyzing call graphs within kernel. 
+5. Lot of functions have ISRA optimization of GCC. ISRA is known to cause signed int bugs (0 was erroneously promoted to 1 in loops) and ISRA has been disabled in ARM kernel: https://patchwork.kernel.org/patch/7113091/ by -fno-ipa-sra GCC flag. This kind of instability could be the reason for 32-bit VIRGO heisenbugs in string functions in older kernels.
+6.Previous FTrace kernel call graph analysis is not only limited to USBmd WLAN analytics but can be applied to any executable requiring kernel profiling. Usual profilers measure time spent in the function whereas this graph theoretic analysis is superior and finds kernel bottlenecks and malicious patterns by analyzing call graphs within kernel.
 7. Malicious code (e.g virus, worms, root-kits, bots, keystroke loggers) are usually associated with high cpu and memory footprint causing abnormal traffic. Analyzing infected kernel callgraph patterns might help in identifying the root cause.
 8. FTrace kernel function call graph complements already implemented Program Analyzers: SATURN CFG driver in VIRGO kernels (accessible only in kernelspace) and Valgrind/KCachegrind/Callgrind userspace call graph analyzer in AsFer. By this kernel activity is partially visible and can be analyzed graph theoretically from userspace.
-9. Outbreak of epidemics have been analyzed as Game Theoretic problem (https://blogs.cornell.edu/info2040/2016/09/16/game-theory-in-the-context-of-epidemics/) - on how people behave in epidemics and their conclusion - "faster information limits disease spread". Cybercrimes are epidemics counterpart in cloud of computers only difference being damage inflicted on intellectual property than humans and adversaries are hackers/malicious code in place of viri. This makes Cybercrimes a multi-player adversarial game involving Hackers/Malicious code Versus Aggrieved. Translating the previous conclusion to cybercrimes: Faster information about malicious code limits the damage. 
+9. Outbreak of epidemics have been analyzed as Game Theoretic problem (https://blogs.cornell.edu/info2040/2016/09/16/game-theory-in-the-context-of-epidemics/) - on how people behave in epidemics and their conclusion - "faster information limits disease spread". Cybercrimes are epidemics counterpart in cloud of computers only difference being damage inflicted on intellectual property than humans and adversaries are hackers/malicious code in place of viri. This makes Cybercrimes a multi-player adversarial game involving Hackers/Malicious code Versus Aggrieved. Translating the previous conclusion to cybercrimes: Faster information about malicious code limits the damage.
 

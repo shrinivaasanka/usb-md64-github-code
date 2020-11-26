@@ -51,7 +51,7 @@ echo -n "7-1:1.0" > /sys/bus/usb/drivers/option/unbind
 echo -n "7-1:1.0" > /sys/bus/usb/drivers/umb/bind 
 
 ======================================================
-Commits as on 29 July 2014
+1055. Commits as on 29 July 2014
 ======================================================
 Driver has been ported and built on 3.15.5 kernel. Also a driver build script has been committed.
 
@@ -65,7 +65,7 @@ USBmd version 15.1.8 has been release tagged on 8 January 2015
 http://sourceforge.net/p/usb-md/code-0/HEAD/tree/Adding%20new%20vendor%20and%20product%20IDs%20to%20an%20existing%20USB%20driver%20on%20Linux.html has steps to add new vendor-id.
 
 -------------------------------------------------------------------------------
-USB debug messages from "cat /sys/kernel/debug/usb/devices" for UMB bound above:
+1056. USB debug messages from "cat /sys/kernel/debug/usb/devices" for UMB bound above:
 -------------------------------------------------------------------------------
 
 T:  Bus=07 Lev=01 Prnt=01 Port=00 Cnt=01 Dev#= 12 Spd=12   MxCh= 0
@@ -90,7 +90,7 @@ E:  Ad=87(I) Atr=02(Bulk) MxPS=  64 Ivl=0ms
 E:  Ad=08(O) Atr=02(Bulk) MxPS=  64 Ivl=0ms
 
 ---------------------------------------------------------------------
-usbmon, libpcap tcpdump and wireshark (or vusb-analyzer) debugging
+1057. usbmon, libpcap tcpdump and wireshark (or vusb-analyzer) debugging
 ---------------------------------------------------------------------
 *mount ­-t debugfs none_debugs /sys/kernel/debug
 *modprobe usbmon
@@ -123,7 +123,7 @@ tcpdump: listening on usbmon1, link-type USB_LINUX_MMAPPED (USB with padded Linu
 *wireshark usbmon.pcap (loads on wireshark)
 
 ----------------------------------------------------------
-Dynamic Debug - dev_dbg() and dev_vdbg()
+1058. Dynamic Debug - dev_dbg() and dev_vdbg()
 ----------------------------------------------------------
 
 USB Debugging References:
@@ -135,12 +135,12 @@ NeuronRain version 15.6.15 release tagged
 ---------------------------------------------------------
 
 ---------------------------------------------------------
-Commits as on 11 July 2015
+1059. Commits as on 11 July 2015
 ---------------------------------------------------------
 usbmd kernel module has been ported to Linux Kernel 4.0.5
 
 ---------------------------------------------------------
-Commits as on 26 November 2015
+1060. Commits as on 26 November 2015
 ---------------------------------------------------------
 - Updated USB-md driver with a lookup of VIRGO kernel_analytics config variable exported by kernel_analytics module in umb_read() as default.
 - New header file umb.h has been added that externs the VIRGO kernel_analytics config array variables
@@ -155,7 +155,7 @@ Commits as on 26 November 2015
 - Updated build generated sources and object files have been added
 
 ----------------------------------------------------------
-Commits as on 27 November 2015
+1061. Commits as on 27 November 2015
 ----------------------------------------------------------
 New folder usb_wwan_modified has been added that contains the USB serial, option and wireless USB modem WWAN drivers from kernel mainline
 instrumented with lot of printk()s so that log messages are written to kern.log. Though dev_dbg dynamic debugging can be used by writing to /sys/kernel/debug/<...>/dynamic_debug
@@ -172,19 +172,19 @@ analyzable by AsFer machine learning code for USB debugging similar to usbmon lo
 These are initial commits only and usb-serial.c, usb_wwan.c, option.c and serial.h might be significantly altered going forward.
 
 ----------------------------------------------------------
-Commits as on 30 November 2015
+1062. Commits as on 30 November 2015
 ----------------------------------------------------------
 Added usb.h from kernel mainline, instrumented with printk() to print transfer_buffer in usb_fill_[control/bulk/interrupt]_urb() functions. kern.log for this has been added in usb_wwan_modified/testlogs.
 
 ----------------------------------------------------------
-Commits as on 1 December 2015
+1063. Commits as on 1 December 2015
 ----------------------------------------------------------
 - new kernel function print_buffer() has been added in usb.h that prints contents of char buffer in hex 
 - Above print_buffer() is invoked to print transfer_buffer in usb_wwan.c, usb-serial.c, option.c 
 - kern.log with print_buffer() output has been added - This dumps similar to wireshark, usbmon and other usb analyzers.
 
 ----------------------------------------------------------
-Commits as on 2 December 2015
+1064. Commits as on 2 December 2015
 ----------------------------------------------------------
 - changed print_buffer() printk() to print a delimiter in each byte for AsFer Machine Learning code processing
 - add a parser script for kern.log to print print_buffer() lines
@@ -192,7 +192,7 @@ Commits as on 2 December 2015
 - Added an Apache Spark MapReduce python script to compute byte frequency in parsed print_buffer() kern.log
 
 ------------------------------------------------------------------
-(ONGOING) NeuronRain USBmd Debug and Malafide Traffic Analytics
+879. (FEATURE) NeuronRain USBmd Debug and Malafide Traffic Analytics
 ------------------------------------------------------------------
 As mentioned in commit notes above, USB incoming and outgoing data transfer_buffer are dumped byte-by-byte. Given this data various
 analytics can be performed most of which are already implemented in AsFer codebase:
@@ -205,7 +205,7 @@ analytics can be performed most of which are already implemented in AsFer codeba
 and so on.
 
 ------------------------------------------------------------------
-Commits as on 3 December 2015
+1065. Commits as on 3 December 2015
 ------------------------------------------------------------------
 - Apache Spark script for analyzing the USBWWAN byte stream logs has been updated with byte counts map-reduce functions from print_buffer() logs
 and temp DataFrame Table creation with SparkSQL.
@@ -213,7 +213,7 @@ and temp DataFrame Table creation with SparkSQL.
 - kern.log parser shellscript has been updated
 
 -------------------------------------------------------------------
-AsFer commits for USBmd as on 4 December 2015
+1066. AsFer commits for USBmd as on 4 December 2015
 -------------------------------------------------------------------
 All the Streaming_<>.py Streaming Algorithm implementations in AsFer/python-src/ have been updated with:
 - hashlib ripemd160 hash MD algorithm for hash functions and return hexdigest()
@@ -223,7 +223,7 @@ All the Streaming_<>.py Streaming Algorithm implementations in AsFer/python-src/
 - Some corrections to the asfer/python-src/Streaming_<> scripts
 
 -------------------------------------------------------------------
-Commits as on 7 December 2015
+1067. Commits as on 7 December 2015
 -------------------------------------------------------------------
 - added Spark Mapreduce and DataFrame log for USBWWAN byte stream
 - added a parsed kern.log with only bytes from USBWWAN stream
@@ -232,7 +232,7 @@ An example log has been added which prints the cardinality as ~250. In contrast,
 approximate the cardinality to 140 and 110 respectively
 
 ----------------------------------------------------------------------------------------
-AsFer commits for USBmd as on 11 December 2015 - USBWWAN stream data backend in MongoDB
+880. (FEATURE) AsFer commits for USBmd as on 11 December 2015 - USBWWAN stream data backend in MongoDB
 ----------------------------------------------------------------------------------------
  Dependency Injection code commits for MongoDB backend - With this MongoDB is also a storage backend for AsFer algorithms similar to MySQL:
 - Abstract_DBBackend.py has been updated for both MySQL and MongoDB injections
@@ -244,12 +244,12 @@ Streaming Abstract Generator iterable framework.
 - MongoDB_DBBackend @provides pymongo.collection.Collection which is @inject-ed to Abstract_DBBackend
 
 ----------------------------------------------------------------------------------------
-Commits as on 10 January 2016
+1068. Commits as on 10 January 2016
 ----------------------------------------------------------------------------------------
 NeuronRain USBmd enterprise version 2016.1.10 released.
 
 ----------------------------------------------------------------------------------------
-Commits - 4 August 2016
+1069. Commits - 4 August 2016
 ----------------------------------------------------------------------------------------
 1.New build script for drivers/usb top level folder has been added.
 2.Copyleft notices updated
@@ -261,7 +261,7 @@ kern.log is not flooded.
 7. PRINT_BUFFER block changed to print the bytes in single line for each buffer
 
 -----------------------------------------------------------------------------------------------------------------
-Commits - 13 July 2017 - usb-storage driver last sector access slab out of bounds error in 64-bit - committed for analysis
+1070. Commits - 13 July 2017 - usb-storage driver last sector access slab out of bounds error in 64-bit - committed for analysis
 - this error was frequently witnessed in VIRGO 32-bit stability issues and panics - ISRA looks like a GCC 
 optimization of a function invocation (Interprocedural Scalar Replacement of Aggregates) 
 -----------------------------------------------------------------------------------------------------------------
@@ -401,7 +401,7 @@ Jul 13 15:03:37 localhost kernel: [ 9837.668704] ===============================
 Jul 13 15:03:37 localhost NetworkManager[745]: <info>  [1499938417.1889]   address 192.168.1.100
 
 -----------------------------------------------------------------------------------------------------------------------------------
-Commits - 13 August 2017 - Suspicious use-after-free error flagged by Kernel Address Sanitizer - committed for analysis
+1071. Commits - 13 August 2017 - Suspicious use-after-free error flagged by Kernel Address Sanitizer - committed for analysis
 This error precedes last_sector_hacks ISRA error above in USB storage driver.
 -----------------------------------------------------------------------------------------------------------------------------------
 Aug 13 14:53:17 localhost kernel: [   47.797146] BUG: KASAN: use-after-free in sr_probe+0x7e0/0xb20 at addr ffff88000009637e
@@ -448,7 +448,7 @@ Aug 13 14:53:17 localhost kernel: [   47.797146]  worker_thread+0x90/0x850
 Aug 13 14:53:17 localhost kernel: [   47.797146]  kthread+0x178/0x1d0
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-(FEATURE-DONE) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address Sanitizer debug logging enabled - 15 August 2017
+881. (FEATURE-DONE) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address Sanitizer debug logging enabled - 15 August 2017
 - Commits 1
 -----------------------------------------------------------------------------------------------------------------------------------------
 (*) Upgraded Spark version to 2.1.0 on Hadoop 2.7
@@ -462,7 +462,7 @@ memory accesses especially for USBWWAN and USB Storage drivers.
 (*) Logs for this have been committed to testlogs/ and python-src/testlogs
 
 -----------------------------------------------------------------------------------------------------------------------------------------
-(FEATURE-DONE) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address Sanitizer debug logging enabled - 15 August 2017
+882. (FEATURE-DONE) Spark Cloud Analytics for Linux Kernel 4.10.3 64 bit with Kernel Address Sanitizer debug logging enabled - 15 August 2017
 - Commits 2
 -----------------------------------------------------------------------------------------------------------------------------------------
 (*) Added a substring match filter to RDD map/reduce transformations chain
@@ -478,7 +478,7 @@ Previous profiling prints following top kernel function invocations:
 implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion on https://groups.google.com/forum/#!topic/linux.kernel/IYBXrW7K2Vc shows it to be an old kernel bug.
 
 ------------------------------------------------------------------------------------------------------------------------
-(FEATURE-DONE) Commits - 24 September 2017 -  USB-md driver for USB and Wireless LAN analytics for 4.13.3 64-bit kernel
+883. (FEATURE-DONE) Commits - 24 September 2017 -  USB-md driver for USB and Wireless LAN analytics for 4.13.3 64-bit kernel
 ------------------------------------------------------------------------------------------------------------------------
 (*) USB-md driver in GitHub and SourceForge at present are 32-bit based on mainline 4.1.5 kernel
 (*) Both USB-md and KingCobra kernel modules are subsidiaries of VIRGO kernel
@@ -489,7 +489,7 @@ implying heavy dependence on last_sector_hacks.isra gcc optimization. Discussion
  initialized with these commits
 
 --------------------------------------------------------------------------------------------------------------
-USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python function - 18 June 2018
+884. USBWWAN Kernel Log Spark Analyzer Update - Refactoring to a new python function - 18 June 2018
 --------------------------------------------------------------------------------------------------------------
 1. Spark Log Analyzer Spark_USBWWANLogMapReduceParser.py has been changed to modularize the pattern extraction
 by defining a new function accepting kern.log file, pattern and filter and also creates Spark DataFrame SQL
